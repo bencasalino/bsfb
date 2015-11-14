@@ -47,6 +47,7 @@ lead {
 
 p  {
 text-decoration: none;
+/*this is what was causing probs with the text align on the p class */
 text-align: center;
 padding: 10px;
 /*color: #EB2229;*/
