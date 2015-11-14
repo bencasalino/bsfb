@@ -1,0 +1,82 @@
+html {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body {
+    background-color: #F2F2F2;
+margin-left: 100px;
+margin-right: 100px;
+
+
+
+}
+
+
+
+
+
+footer {
+  background-color: white;
+  height: 4px;
+
+}
+
+
+h3 {
+    color: black;
+}
+
+
+div.classy {
+  max-width: 100%;
+  padding: 5px;
+  background-color: #cc2c2e;
+  color: white;
+
+}
+
+
+div.spacer {
+  max-width: 100%;
+  padding: 15px;
+  background-color: gray;
+  color: white;
+}
+
+div.blue {
+  max-width: 100%;
+  background-color: #0253a4;
+  color: #0253a4;
+}
+
+div.red {
+  max-width: 100%;
+  background-color: #cc2c2e;
+  color: #cc2c2e;
+}
+
+
+/* unvisited link */
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #cc2c2e;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: gray;
+    text-decoration: none;
+}
