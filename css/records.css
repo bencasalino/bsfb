@@ -218,6 +218,6 @@ color: green;
 
 
 a:link    {color:#0B76BC; text-decoration:none}
-a:visited {color:#0B76BC; text-decoration:none}
-a:hover   {color:#0B76BC; text-decoration:none}
-a:active  {color:#0B76BC; text-decoration:none}
+a:visited {color:gray; text-decoration:none}
+a:hover   {color:#EB2229; text-decoration:none}
+a:active  {color:#EB2229; text-decoration:none}
