@@ -35,6 +35,16 @@ z-index: -4;
     color: #EB2229;
 }
 
+desc {
+    font-size: 14px;
+    color: #EB2229;
+}
+
+lead {
+    font-size: 14px;
+    color: #EB2229;
+}
+
 p  {
 text-decoration: none;
 text-align: center;
