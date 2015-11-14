@@ -10,6 +10,26 @@ margin-right: 100px;
 z-index: -4;
 }
 
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    /*margin: auto;*/
+    /*word-spacing: 30px;*/
+    display: inline;
+         z-index: -2;
+}
+
+.navbar {
+    background: transparent;
+    background-image: none;
+    color: #F5F5EF;
+     border: 0;
+     z-index: -2;
+     /*display: inline-block;*/
+}
+
 
 p  {
 text-decoration: none;

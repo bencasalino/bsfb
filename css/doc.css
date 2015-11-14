@@ -54,6 +54,7 @@ font-size: 20px;
     /*margin: auto;*/
     /*word-spacing: 30px;*/
     display: inline;
+         z-index: -2;
 }
 
 .navbar {
@@ -61,6 +62,7 @@ font-size: 20px;
     background-image: none;
     color: #F5F5EF;
      border: 0;
+          z-index: -2;
      /*display: inline-block;*/
 }
 
