@@ -30,6 +30,10 @@ z-index: -4;
      /*display: inline-block;*/
 }
 
+.desc {
+    font-size: 14px;
+    color: #EB2229;
+}
 
 p  {
 text-decoration: none;
@@ -43,10 +47,7 @@ font-family: arial;
 font-size: 16px;
 }
 
-.desc {
-    font-size: 14px;
-    color: #EB2229;
-}
+
 
 
 
