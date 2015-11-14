@@ -216,7 +216,9 @@ color: green;
   width:25px;
 }
 
-
+.footer {
+font-size: 12px
+}
 
 a:link    {color:#0B76BC; text-decoration:none}
 a:visited {color:#0B76BC; text-decoration:none}

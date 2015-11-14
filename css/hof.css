@@ -108,6 +108,10 @@ div.red {
   color: #cc2c2e;
 }
 
+.footer {
+font-size: 10px
+}
+
 
 a:link    {color:#0B76BC; text-decoration:none}
 a:visited {color:#0B76BC; text-decoration:none}
