@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- links -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- title -->
+    <title>BSFB Season VIII</title>
+  </head>
+<!-- .................................. END HEADER ....................... -->
+
+<!-- .................................. BEGIN BODY ....................... -->
+    <body>
+    <!-- Fixed Header Navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <!-- when the site goes down to "mobile phone view" use the "three bar hamburger stack" to turn all header buttons into a single dropdown icon menu. -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- Brand left side of the nav bar -->
+              <a class="navbar-brand" href="index.html">BSFB Season VIII</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav"> </ul>
+              <!-- navbar fixed right-HOME|HISTORY|PRANK|HOF|ASTARS|RES|TEAMS -->
+              <ul class="nav navbar-nav navbar-right">
+                <!-- Home button -->
+                <li class="active"><a href="index.html"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+                <!-- History button -->
+                <li><a href="history.html"> <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span> History</a></li>
+                <!-- Power Rankings button -->
+                <li><a href="prank.html"> <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Power Rankings</a></li>
+                <!-- Hall of Fame button -->
+                <li><a href="halloffame.html"> <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Hall of Fame </a></li>
+                <!-- All Stars button -->
+                <li><a href="allstars.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> All Stars </a></li>
+                <!-- Resources button -->
+                <li><a href="resources.html"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Resources </a></li>
+                <!-- Teams Dropdown Menu -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Teams <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">Divsison I</li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=6&seasonId=2015">Jon</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=1&seasonId=2015">Ben</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=2&seasonId=2015">Rafa</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=15&seasonId=2015">Adam</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=14&seasonId=2015">Lamar</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=19&seasonId=2015">Mark</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=8&seasonId=2015">Chris</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=17&seasonId=2015">Jimmy</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=22&seasonId=2015">Jess</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=21&seasonId=2015">Andy</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=23&seasonId=2015">Scott</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=18&seasonId=2015">Zach</a></li>
+                    <li><a href="http://games.espn.go.com/fba/clubhouse?leagueId=57357&teamId=20&seasonId=2015">Jesse</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Inactive Managers</li>
+                    <li><a href="index.html"> Join</a></li>
+                  </ul> <!-- dorp down menu -->
+                </li> <!-- dropdown -->
+              </ul> <!-- nav bar right -->
+            </div> <!--nav-collapse -->
+          </div> <!-- nav container -->
+          <!-- nested within the nav bar these are the red and blue stripes with settings found in css -->
+          <div class="red">.</div> <!-- red bar under nav -->
+          <div class="blue">.</div> <!-- blue bar under nav -->
+        </nav> <!-- end nav --> <!-- still needed to make sure it doesnt hide under the fixed nav bar -->
+<!-- ............................ END NAV BAR  ........................... -->
+
+<!-- ............................ LEFT SIDE COLUMN  ....................... -->
+<div class="container-fluid"> <!-- container-fluid -->
+  <div class="row"> <!-- row -->
+    <div id="wrapper"> <!-- wrapper -->
+      <div id="sidebar-wrapper"> <!-- sidebar wrapper -->
+          <ul class="sidebar-nav"> <!-- sidebar nav -->
+              <li class="sidebar-brand"> <!-- sidebar brand -->
+                  <br>
+                  <br>
+                  <br>
+                  <p> <center> <img src="logo.jpeg">  </center> </p>
+                    <li><a href="#intro"><strong> I. Introduction </strong></a></li>
+                      <ul> <a href="#setup">Setup &amp; Format </a></ul>
+                      <ul> <a href="#scoring"> Scoring Overview </a></ul>
+
+                    <li><a href="#settings"> <strong>II. League Settings</strong> </a></li>
+                      <ul> <a href="#lineup"> Lineup Management</a> </ul>
+                      <ul> <a href="#limit"> Weeky Player Limit </a></ul>
+                      <ul> <a href="#trades"> Trades &amp; Waivers</a> </ul>
+
+
+                    <li><a href="#draft"> <strong>III. Draft </strong> </a> </li>
+                      <ul> <a href="#draftformat"> Draft Format Overview</a> </ul>
+
+
+                    <li><a href="#awards"> <strong>IV. Awards </strong> </a></li>
+                      <ul> <a href="#leaguefee"> Season League Fee</a></ul>
+                      <ul> <a href="#payouts"> Payouts &amp; Winnings</a> </ul>
+                      <ul> <a href="#yearly"> Yearly Awards </a></ul>
+                      <ul> <a href="#hof">Hall of Fame Eligiblity</a> </ul>
+
+                    <li><a href="#calender"><strong> V. Calender </strong></a></li>
+                      <ul> <a href="#season">Season Timeline </a></ul>
+                      <ul> <a href="#off-season">Off-Season Timeline</a> </ul>
+              </li> <!-- sidebar brand -->
+          </ul> <!-- sidebar nav -->
+      </div> <!-- side bar wrapper -->
+<!-- .......................END LEFT SIDE COLUMN   ....................... -->
+
+<!-- .......................BEING BEAUGE CONSTITUTION  ................... -->
+    <div class="container-fluid">
+        <br>
+        <br>
+        <br>
+        <br>
+      <h1> <center> League Constitution  </center> </h1>
+      <hr>
+          	<div class="row">
+            	<div class="col-md-6">
+                  <h2> League Overview</h2>
+                  <hr>
+                       <p class="lead"> BSFB is a true franchise building experience designed to mimic the NBA as closely as fantasy sports will allow.</p>
+                       <p>Scoring System is Head-to-Head Total Points: Teams compete Head to Head to earn a single <strong> Win, Loss or Tie </strong> each week based on which team scores the most Fantasy Points in a scoring period. All 30 NBA Franchises and playes will be represented. Full 82 Game Schedule for 12 teams with 8 making the playoffs. Realistic year round off-season activity.</p>
+                       <p> Our League began circa 2007-08 in the droms of Arizona State in Tempe. (In the same dorms of future NBA All-Star James Harden). This October we will be entering our 8th season as a league. Below is our "League Constitution", where all league rules and detailes will be housed.  </p>
+
+                       <p> For more information about joining the leauge. <button type="button" class="btn btn-primary">Join</button></p>
+                    </div> <!-- div class col -->
+                <!-- intro-right -->
+<!-- ...................... END LEAGUE OVERVIEW ..........................  -->
+            <div class ="col-md-6"> <!-- col -->
+              <h2> League Heirarchy </h2>
+              <hr>
+              <table class="table">
+              <thead>
+                  <tr>
+                      <th>Name</th>
+                      <th> Title</th>
+                      <th>Joined</th>
+                  </tr>
+              </thead>
+              <!-- table body -->
+              <tbody>
+              <tr>
+                  <td> Ben </td>
+                  <td> Commissioner </td>
+                  <td> 2008 </td>
+              </tr>
+              <tr>
+                  <td> Jon </td>
+                  <td> Commissioner </td>
+                  <td> 2008 </td>
+              </tr>
+              <tr>
+                  <td> Rafa </td>
+                  <td> Commissioner/Treasurer </td>
+                  <td> 2009 </td>
+               </tr>
+              </tbody> <!-- end table body -->
+          </table> <!-- end table -->
+        	     <p> <b>Trade Review Committee: </b><small> (all active managers) </small></b></p>
+                 <p> <b>League Type:</b> Head to Head </p>
+                 <p> <b>Matchup Length:</b> Weekly</p>
+                 <p><b>League Home:</b> <a href="http://games.espn.go.com/fba/leagueoffice?leagueId=57357">ESPN League Page </a></p>
+                 <p> <b>Trade Chat: </b><a href="https://www.facebook.com/groups/123422284409807/"> Facebook Group </a> </p>
+                 <p> <b>Established:  </b> circa 2008 (Tempe, Arizona) </p>
+</div> <!-- col -->
+</div><!-- row -->
+</div> <!-- cont fulid -->
+<!-- ...................... END LEAGUE HIERARCHY ..........................  -->
+<br>
+<br>
+<hr>
+    <a name="settings"> </a>
+<!-- spacer -->
+        <div class="spacer"><center><!-- spacer -->
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </center>
+        </div> <!-- spacer -->
+<!-- spacer -->
+<!-- row -->
+<!-- ......................end row one....................................   -->
+
+<!-- settings-left -->
+<div class="container-fluid">
+  <hr>
+  </a>
+  <div class ="row">
+  <div class ="col-md-6">
+  <table class="table">
+          <h2> <a name="scoring"> Scoring Overview </a> </h2>
+          <p><h5><small>  16 Scoring Categories | +9 | -5 | </small></h5> </p>
+          <thead>
+          	<tr>
+          		<th>Category</th>
+          		<th>Value</th>
+         	</tr>
+          </thead>
+            <tbody>
+          	     <tr>
+                     <td> Points Scored (PTS)  </td>
+                     <td>  +1  </td>
+                 </tr>
+          	     <tr>
+                     <td>  Assists (AST) </td>
+                     <td>  +1.25  </td>
+                 </tr>
+                 <tr>
+                      <td>Steals (STL)</td>
+                      <td> +1.5 </td>
+
+                  </tr>
+          <tr>
+            <td>Blocks (BLK) </td>
+            <td> +1.5 </td>
+          <tr>
+            <td>Rebounds (REB)</td>
+            <td> +1 </td>
+          </tr>
+          <tr>
+            <td>Offensive Rebound Bonus (OREB) </td>
+            <td> +1.5 </td>
+          <tr>
+            <td>Defensive Rebound Bonus (DREB)</td>
+            <td> +1 </td>
+          </tr>
+          <tr>
+            <td>Field Goals Attempted (FGA)</td>
+            <td> -.05 </td>
+          </tr>
+          <tr>
+            <td>Free Throws Attempted (FGA)</td>
+            <td> -0.5 </td>
+          </tr>
+          <tr>
+            <td>Free Throws Made (FTM) </td>
+            <td> +1 </td>
+          </tr>
+          <tr>
+            <td>Turnover Penalty (TO)</td>
+            <td> -1 </td>
+          </tr>
+          <tr>
+            <td>Technical Fouls (TF)</td>
+            <td> -0.5 </td>
+          </tr>
+          <tr>
+            <td>Ejections (EJ)</td>
+            <td> -3</td>
+          </tr>
+          <tr>
+            <td>Double-Double Bonus (DD)</td>
+            <td> +5</td>
+          </tr>
+          <tr>
+            <td>Triple-Double Bonus (TD)</td>
+            <td> +8</td>
+          </tr>
+          <tr>
+            <td>Quadruple-Double Bonus (QD)</td>
+            <td> +12</td>
+          </tr>
+          </tbody>
+        </table>
+        <br>
+        <p> <h2> Trades </h2> </p>
+        <hr>
+        <p> Any trade can be made after the league draft concludes. Our trade deadline will always be the same as the NBA (usually the nearest Thursday following the All Star Break at 12pm Pacific Standard Time.  </p> <p>
+        <b> Weekly Trade Chat: </b> Before the season begins we will vote on a night to hold weekly trade chats via the League <a href="#"> Facebook Group </a> Owners are not reqired to particpate in league chat, but it is highly recoomended to the ingretiy of the league. Any manager can also post the Facebook page of players that you are looking to trade and/or players/postions you need.
+        </p><p>
+        <b> Trade Review: </b> All current owners are memebers of the "Trade Review Committee". Any trade that happens during the season will be posted on the Facebook Group Page. If anyone feels the trade is biased or unfair in anyway they can veto the trade. If x amount of managers or % of the league (will vote on each season) veto's the trade with 72 hours it will be cancelled.
+        </p>  <br>
+        <p> <h2> Waivers </h2></p>
+        <hr>
+        <p> <b> Weekly Amount: </b> Unlimited <p>
+        <p> If you pick up a player BEFORE the first game starts on that same day, that player will appear on your roster the following day. </p> href=""<p> <b> Roster Dumping: </b>  is when a manager drops a large quanity of players on the final day in order to reach the player limit on the verge of elimination. We will have a vote to possbibly freeze the top players on a roster of an eliminated team to keep the waiver wire from being populated with unbalanced players that were intially drafted by a diffrent team.
+        </p></div>
+
+<!-- ...................... END SCORING OVERVIEW .. .......................  -->
+<!-- settings-right -->
+<div class ="col-md-6">
+     <table class="table">
+                        <h2>Roster</h2>
+                        <h5> <small> 12 Total | 9 Starters | 3 Bench </small></h5>
+                          <thead>
+                            <tr>
+                              <th> #</th>
+                              <th> Position  </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                               <td> 1 </td>
+                               <td> PG </td>
+                              </tr>
+                              <tr>
+                               <td> 2 </td>
+                               <td> SG </td>
+                              </tr>
+                              <tr>
+                               <td> 3 </td>
+                               <td> SF </td>
+                              </tr>
+                              <tr>
+                               <td> 4 </td>
+                               <td> PF </td>
+                              </tr>
+                              <tr>
+                               <td> 5 </td>
+                               <td> C </td>
+                              </tr>
+                              <tr>
+                               <td> 6 </td>
+                               <td> PG/SG/SF </td>
+                              </tr>
+                              <tr>
+                               <td> 7 </td>
+                               <td> SF/PF/C </td>
+                              </tr>
+                              <tr>
+                               <td> 8 </td>
+                               <td> UTIL (any)</td>
+                              </tr>
+                              <tr>
+                               <td> 9 </td>
+                               <td> UTIL (any) </td>
+                              </tr>
+                              <tr>
+                               <td>10</td>
+                               <td> UTIL (any) </td>
+                              </tr>
+                              <tr>
+                               <td>11</td>
+                               <td> BENCH </td>
+                              </tr>
+                              <tr>
+                               <td>12</td>
+                               <td> BENCH</td>
+                              </tr>
+                              <tr>
+                               <td>13</td>
+                               <td> BENCH</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <br>
+                        <br>
+<a name="leauge"> </a>
+
+<p> <h2>  Lineup Management </h2></p>
+<hr>
+<p>  Owners can set their own lineups, but active rosters lock five (5) minutes prior to tip-off of first game of scoring period.(Mon & Fri) Rosters can not be changed for scoring period once rosters lock. </p>
+<br>
+  <p> Most leagues implement more strict guidlines when in comes to position eligiblity slots. Our league belives in more of "postionless" basketball aproach with roster spots.</p>
+<br>
+<p>  Mangers are only required to fill one of each of the postions of the 10 max players that can be eligble each day. The next 2 slots are for any gaurd/forward and forward/center with enough crossover that should eliminate roster postion issues. The final 3 spots are FLEX postions that any player is eligble for.</p>
+
+<br>
+<p> <h2>Weekly Player Limit</h2> </p>
+<hr>
+<p> <b>  Regular Season: </b> 40 Players Max. </p>
+<p> <b>  Playoffs/Post Season: </b> 80 Players Max. </p>
+<p> Each team can start a max of 40 players each week. Going over that limit before or after the week is over will result in the HIGHEST scoring player(s) being SUBTRACTED from your total score of the week. It is up to the managers to field exactly their best 40 to avoid the penalty and keeping the league fair.</p>
+<br>
+
+<p class="lead"> If a player is placed in a roster spot in your lineup but does NOT play any minutes, then that player will not be added to your teams weekly total.</p>
+<br>
+<p>Please keep in mind that ometimes in league chat the player limit rule is also refered to as "The Lamar Reynolds Rule" </p>
+</div>
+</div>
+</div>
+<br>
+<br>
+<hr>
+<!-- ...................... END RIGHT COL OF LEAUGE SETTINGS ..........  -->
+<a name="draft"> </a>
+<!-- spacer -->
+    <div class="spacer"><center><!-- spacer -->
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </center>
+    </div> <!-- spacer -->
+<!-- spacer -->
+
+<!-- draft-left -->
+<!-- ...................... BEGIN DRAFT COL     ..........................  -->
+  <div class = "container-fluid ">
+      <p>
+       <hr>
+        <div class="row">
+
+          <div class="col-md-6">
+              <a name="draft"> </a>
+          <h2> Draft Overview</h2>
+          <hr>
+             <p class="lead"> The 2015-16 | Season VIII Draft will most likely be the last saturday or sunday in October around 9PM PST. We will confirm the official date when the NBA release's the schedule in August.</p>
+             <p> <b> Type: </b> Snake </p>
+             <p> <b> Example: </b> 1,2,3,4,5,6,5,4,3,2,1 etc.
+             <p> <b> Draft Location: </b> Online ( Non Arizona Managers) </p>
+             <p> <b> Live Draft Location: </b> Rafa's Place Phoenix, AZ (TBA)</p>
+             <p> <b> Time: </b> The draft will start no earlier than 8pm and no later than 9pm. ESPN opens up the draft room exactly one hour before the draft starts. During this period it is highly reccommened to join the draft room early. It is important to test the ESPN Live Draft and contact a commisioner imediatally if you are having issues.  </p>
+             <p> If <em> ALL </em> managers are in the draft room before 9pm we can start the draft early. Depending on time per pick the draft will last at least an hour but less than two usually. </p>
+             <p> <b>Duration per Pick (Rounds 1-4): </b> 120 Seconds</p>
+             <p> <b> Duration per Pick (Rounds 5-13):  </b> 90 Seconds</p>
+             <p> <b> Trading Picks:  </b> <em> ARE </em> allowed, but must be completed before the draft begins. </p>
+             <p> <b> </b></p>
+
+        </div>
+
+<!-- draft-right -->
+  <div clas = "contianter-fluid ">
+          <p>
+          <div class="col-md-6">
+           <table class="table">
+                <h2> Scoring Snake-Style Draft </h2>
+                <p><h5><small>  12 Teams | 13 Rounds  </small></h5> </p>
+                <thead>
+                  <tr>
+                    <th>Team</th>
+                    <th>Pick</th>
+                    <th>Round</th>
+                    <th>Team</th>
+                    <th>Pick</th>
+                    <th>Round</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                  <td> Team A </td>
+                  <td> 1 </td>
+                  <td> 1 </td>
+
+                  <td> Team A  </td>
+                  <td> 23 </td>
+                  <td> 2 </td>
+                  </tr>
+
+                  <tr>
+                      <td> Team B </td>
+                      <td> 2 </td>
+                      <td> 1 </td>
+                      <td> Team B </td>
+                      <td> 22 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team C </td>
+                      <td> 3 </td>
+                      <td> 1 </td>
+                      <td> Team C </td>
+                      <td> 21 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team D </td>
+                      <td> 4 </td>
+                      <td> 1 </td>
+                      <td> Team D  </td>
+                      <td> 20 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team E </td>
+                      <td> 5 </td>
+                      <td> 1 </td>
+                      <td> Team E </td>
+                      <td> 19 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team F </td>
+                      <td> 7 </td>
+                      <td> 1 </td>
+                      <td> Team F </td>
+                      <td> 18 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team G </td>
+                      <td> 8 </td>
+                      <td> 1 </td>
+                      <td> Team G  </td>
+                      <td> 17 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team H </td>
+                      <td> 9 </td>
+                      <td> 1 </td>
+                      <td> Team H </td>
+                      <td> 16 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team I </td>
+                      <td> 10 </td>
+                      <td> 1 </td>
+                      <td> Team I </td>
+                      <td> 15 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team J </td>
+                      <td> 11 </td>
+                      <td> 1 </td>
+                      <td> Team J </td>
+                      <td> 14 </td>
+                      <td> 2 </td>
+                  </tr>
+                  <tr>
+                      <td> Team K </td>
+                      <td> 12 </td>
+                      <td> 1 </td>
+                      <td> Team K </td>
+                      <td> 13 </td>
+                      <td> 2 </td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+            </div>
+            </p>
+            </div>
+            </div>
+            </div>
+            <a name="draft"> </a>
+            <br>
+
+
+            <!-- spacer -->
+                <div class="spacer"><center><!-- spacer -->
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </center>
+                </div> <!-- spacer -->
+            <!-- spacer -->
+
+<!-- ...................... END DRAFT COL NUMBER 3  ......................  -->
+
+<!-- award-left -->
+<!-- ...................... START L FEE AND PAYOUTS COL  .....................  -->
+<div class="container-fluid">
+<hr>
+      <!-- <div class ="row"> -->
+      <div class ="col-md-6"> <p>
+      <ul>
+       <p>
+        <a name="yearly">
+         <h2> Payouts </h2>
+        </a>
+        <small> Based on % of League Fee. </small>
+<hr>
+        <li> 1st Place  </li>
+        <li> 2nd Place </li>
+        <li> 3rd Place </li>
+        </p>
+      </ul>
+      <br>
+      <ul>  <h2> League Fee </h2> <small> Season VIII's League fee is $25.  </small>
+      <hr>
+      <p> Payment Options </p>
+      <li>  Paypal   </li>
+      <li>  Mail to Ben at the Oregon office. </li>
+      <li>  Mail to Rafa at the Arizona office. </li>
+      </ul>
+      </p>
+      <hr>
+      <br>
+      <p> <h2> Hall of Fame (Season 10+) </h2>
+      <br>
+      <table class="table">
+              <p> <h5> <small>  12 Teams | 13 Rounds  </small></h5> </p>
+              <thead>
+                <tr>
+                  <th> A </th>
+                  <th> B </th>
+                  <th> C </th>
+                  <th> D </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> Championships </td>
+                  <td> Total Fantasy Points </td>
+                  <td> Years in league </td>
+                  <td> Wins </td>
+                </tr>
+                <tr>
+                  <td> 1+ </td>
+                  <td>100,100 Career Points</td>
+                  <td> 5+ seasons </td>
+                  <td> 50+ wins  </td>
+                </tr>
+                <tr>
+                  <td> automatically eligble </td>
+                  <td> automatically eligble </td>
+                  <td> automatically eligble </td>
+                  <td> automatically eligble </td>
+                </tr>
+                </tbody>
+                </table>
+
+
+        </p>
+        <br>
+        <p>
+        Voting for the league Hall of Fame will comense after Season 10 in 2017. All active/nactive managers are eligble to vote for 2 managers each season that meet the requirements. Voting will remain open for the summer with a max of two managers being inducted into the Hall of Fame each season.
+        </p>
+      </div>
+
+
+
+
+
+<!-- award-right -->
+<div class ="col-md-6"> <p>
+    <ul>  <h2> Yearly Awards </h2> <small> Only 1 winner per catergory.  </small>
+
+    <hr>
+
+    <li>  <b> Rookie of the Year: </b>
+    All new managers are eligible to win this award that goes to the rookie that makes the deepest playoff run or best season record.  </li>
+    <br>
+    <li> <b> Most Improved Franchise</b>
+    Awarded to the manager that makes the biggest statistical jump between seasons. </li> <br>
+    <li> <b> Best Offensive Team  </b>  Award goes the the team that leads in the most offensive categories at the end of the season. ( Points, Field Goals Made , Free Throws Made & Assists )</li>
+    <br>
+
+    <li>
+    <b> Best Defensive Team: </b> Award goes the the team that leads in the most defensive categories at the end of the season. Defensive Rebounds Blocks Steals
+    </li>
+    <br>
+    <li>
+    <b> Most Effcient Team: </b>The team that leads the league in shooting % in FGM/FGA and FTM/FTA.
+    </li>
+    <br>
+    <li> <b> Most Fantasy Points (Season): </b> This award goes to the team that has scored the most fantasy points over the entire regular season.
+    </li>
+    <br>
+    <li>
+    <b> Most Fantasy Points (over 3 Seasons): </b> This award goes to the team that has scored the most fantasy points over the entire regular season.
+
+      <br>
+    <p> (will vote on after Season 10)</p>
+    <br>
+    <p>
+    Before we reach our 10th Anniversary Season we wanted to have an award for Best Franchise over the next 3 seasons. Even if no team emerges as a true dynasty we also have a managers vote along with the following stats taken into account.
+    <br>
+    (Championships,Finals Appearances, Total Wins/ Win %, Total Fantasy Points, Semi-Final Appearances, Playoff Appearances & Seasons completed.
+    <br>
+    All active-inactive managers from seasons 7-10 are eligible to vote for best franchise. The managers vote will be factored in as 50% of the total vote with the other half going to the above statistics. </p>
+    </li>
+    <br>
+      <li>
+      <b>
+      10th Anniversary Dynasty Award</b>
+    We will also be doing the same thing as above but for the entire first 10 years of the league when we reach that milestone.
+    </li>
+    </ul>
+    </div>
+
+
+<!-- awards-left -->
+  <div class="container-fluid">
+              <hr>
+              <br>
+              <br>
+              <div class ="row">
+              <div class ="col-md-6"> <p>
+              <table class="table">
+              <h2> Regular Season Timeline </h2>
+              <p><h5><small> The NBA season officially ends in late June with Free-Agency begggining in July. </small></h5> </p>
+                <thead>
+                  <tr>
+                    <th>Event</th>
+                    <th>Time</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> League Draft</td>
+                    <td> Saturday October 24th </td>
+                  </tr>
+                  <tr>
+                    <td> NBA Season Begins  </td>
+                    <td> First week in November </td>
+                  </tr>
+                  <tr>
+                    <td> All Star Week  </td>
+                    <td> Feb 7th-14th  </td>
+                  </tr>
+                  <tr>
+                    <td> NBA League Trade Deadline  </td>
+                    <td> Feb 20th  </td>
+                  </tr>
+                  <tr>
+                    <td> League Trade Deadline  </td>
+                    <td> Feb 20th </td>
+                  </tr>
+                  <tr>
+                    <td> End Regular Season  </td>
+                    <td> Late March  </td>
+                  </tr>
+                  <tr>
+                    <td> Playoffs Begin  </td>
+                    <td> Feb 20th  </td>
+                  </tr>
+                  <tr>
+                    <td> Semi Finals begin  </td>
+                    <td> Feb 20th  </td>
+                  </tr>
+                  <tr>
+                    <td> Finals begin </td>
+                    <td> Feb 20th  </td>
+                  </tr>
+                  <tr>
+                    <td> NBA League Trade Deadline  </td>
+                    <td> Feb 20th  </td>
+                  </tr>
+              </tbody>
+              </table>
+          </div>
+<!-- awards-right -->
+  <div class ="col-md-6"> <p>
+      <table class="table">
+      <h2> Off-Season Timeline </h2>
+      <p><h5><small> The NBA season officially ends in late June with Free-Agency begggining in July. </small></h5> </p>
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Time</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> NBA League Draft </td>
+             <td> June 26th </td>
+          </tr>
+          <tr>
+            <td> Free Agency  </td>
+             <td> July 1st </td>
+          </tr>
+          <tr>
+            <td> Players can officially sign  </td>
+            <td> July 10th </td>
+          </tr>
+          <tr>
+            <td> Summer League   </td>
+             <td> Late July </td>
+          </tr>
+          <tr>
+            <td> Protected Draft Pick Deadling </td>
+            <td> August 1st</td>
+          </tr>
+          <tr>
+            <td> NBA Pre Season Begins </td>
+            <td>  October </td>
+          </tr>
+          <tr>
+            <td> NBA PLayoffs Begin  </td>
+            <td>  April </td>
+          </tr>
+          <tr>
+            <td> NBA Draft Lottery   </td>
+            <td> May 19th   </td>
+          </tr>
+         </div>
+          </tbody>
+          </table>
+          <p> The protected draft pick deadline applies to all managers from the previous season. If an owner wants to keep his/her draft pick (based on the final standings of last season) they  <em> must</em> sign up before the deadline. </p>
+</div>
+<hr>
+</div>
+</p>
+<hr>
+</div>
+</div>
+</div>
+<!-- End main content-->
+<div class="red">.</div> <!-- red bar under nav -->
+<div class="blue">.</div> <!-- blue bar under nav -->
+<br>
+<br>
+</div> <!-- wrapper FROM THE TOP -->
+<!-- footer -->
+<!-- Navbar -->
+<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <div class="navbar-footer">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="legal.html">  &copy; 2015-16 BSFB | Established 2008 | Legal </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          </ul>
+      </nav>
+      <!-- bootstrap javascript and jquery -->
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
