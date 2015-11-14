@@ -19,6 +19,9 @@ margin-right: 100px;
 z-index: -4;
 /*cream*/
 }
+.footer {
+font-size: 11px
+}
 
 .test {
 margin-top: -100px;
@@ -216,9 +219,7 @@ color: green;
   width:25px;
 }
 
-.footer {
-font-size: 11px
-}
+
 a:link    {color:#0B76BC; text-decoration:none}
 a:visited {color:#0B76BC; text-decoration:none}
 a:hover   {color:#0B76BC; text-decoration:none}
