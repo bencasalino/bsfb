@@ -109,26 +109,7 @@ div.red {
 }
 
 
-/* unvisited link */
-a:link {
-    color: gray;
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: gray;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: #cc2c2e;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: gray;
-    text-decoration: none;
-}
+a:link    {color:#0B76BC; text-decoration:none}
+a:visited {color:#0B76BC; text-decoration:none}
+a:hover   {color:#EB2229; text-decoration:none}
+a:active  {color:#0B76BC; text-decoration:none}
