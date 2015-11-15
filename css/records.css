@@ -222,8 +222,13 @@ font-size: 11px
 
 .glyphicon-star {
 font-size: 6px;
-color: gold; 
+color: gold;
 
+}
+
+.bar  {
+color: gray;
+height: 20px; 
 }
 
 a:link    {color:#0B76BC; text-decoration:none}
