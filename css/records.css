@@ -221,7 +221,8 @@ font-size: 11px
 
 
 .glyphicon-star {
-/*font-size: 6px;*/
+font-size: 6px;
+color: gold; 
 
 }
 
