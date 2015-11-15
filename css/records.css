@@ -219,6 +219,12 @@ font-size: 11px
 }
 
 
+
+.glyphicon-star {
+font-size: 8px;
+
+}
+
 a:link    {color:#0B76BC; text-decoration:none}
 a:visited {color:#0B76BC; text-decoration:none}
 a:hover   {color:#EB2229; text-decoration:none}
