@@ -145,6 +145,17 @@ font-weight: bolder;
 
 
 }
+
+.ul{
+background-color: #0B76BC;
+color: #0B76BC;
+}
+
+.black {
+    color:black;
+}
+
+
 /*      color +/- ratings       */
 .down-three {
 color: #b41226;
@@ -180,19 +191,10 @@ color: #86e394;
     font-size: 10px;
 }
 
-.ul{
-background-color: #0B76BC;
-color: #0B76BC;
-}
 
-.black {
-    color:black;
-}
-
-
-.jon {
+/*.jon {
 color: green;
-}
+}*/
 
 .mana {
   height:25px;
