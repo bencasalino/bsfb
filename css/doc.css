@@ -39,9 +39,10 @@ text-align: left;
 
 
 .lead {
-font-size: 14px;
+font-size: 18px;
 font-weight: lighter;
 font-style: italic;
+text-align: center;
 }
 
 h3 {
@@ -82,7 +83,7 @@ width: 14px;
 
 p  {
 text-decoration: none;
-text-align: center;
+/*text-align: center;*/
 padding: 10px;
 color: #000000;
 /*red*/
