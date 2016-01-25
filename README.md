@@ -1,37 +1,48 @@
-####### Bball-Season8
+
+
+
+
+
+
+
+###### BSFB SEASON VIII
 
 ###### Links
-* _{Facebook Group Page}_
-* _{https://www.facebook.com/groups/123422284409807/}_
-* _{ESPN League Home}_
-* _{http://games.espn.go.com/fba/leagueoffice?leagueId=57357}_
+* _Leauge Home_
+* _https://www.bsfbbasketball.com/_
+* _Facebook Group Page_
+* _https://www.facebook.com/groups/123422284409807/_
+* _ESPN League Home_
+* _http://games.espn.go.com/fba/leagueoffice?leagueId=57357_
 
-##### _{BSFB Fantasy Basketball Season VIII }, {Version 3, 9/1/15}_
+##### _BSFB Fantasy Basketball Season VIII, Version 4, 11/21/16_
 
-#### By _**{Benjamin M. Casalino}**_
+#### By _**Benjamin M. Casalino**_
 
 ## Description
 
-_{This is website is not affiliated with the NBA in anyway,
-merely a place to keep track of stats from our league. }_
+This is website is not affiliated with the NBA in anyway,
+merely a place to keep track of stats from our league.
 
 ## Setup
-* will add later
-
+In a web browser navigate to _https://www.bsfbbasketball.com/_ to view.
 
 
 
 ## Technologies Used
-* HTML
-* CSS
+* HTML5
+* CSS3
+* SASS
 * BOOTSTRAP 3
 * JAVASCRIPT
+* WOW JS
+* ANIMATE JS
 * JQUERY
+
+
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 **_{Benjamin M. Casalino)_**
+Copyright (c) 2016 **_Benjamin M. Casalino_**
 
 This software is licensed under the MIT license.
 
