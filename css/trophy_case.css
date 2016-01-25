@@ -1,3 +1,7 @@
+body {
+    background: black no-repeat fixed center;
+}
+
 h1 {
-    color:blue;
+    color:white;
 }
