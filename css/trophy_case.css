@@ -1,10 +1,7 @@
 body {
-  background: blue no-repeat fixed center; }
+  background: black no-repeat fixed center; }
 
-h3 {
-  color: yellow; }
-
-h2 {
-  color: red; }
+p {
+  color: white; }
 
 /*# sourceMappingURL=trophy_case.css.map */

@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACD,UAAU,EAAE,2BAA2B;;AAG3C,EAAG;EACC,KAAK,EAAC,MAAM;;AAIhB,EAAG;EACC,KAAK,EAAC,GAAG",
+"mappings": "AAAA,IAAK;EACD,UAAU,EAAE,4BAA4B;;AAG5C,CAAE;EACE,KAAK,EAAC,KAAK",
 "sources": ["../scss/trophy_case.scss"],
 "names": [],
 "file": "trophy_case.css"
