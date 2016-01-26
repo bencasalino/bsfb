@@ -1,7 +1,15 @@
 body {
   background: black no-repeat fixed center; }
 
-p {
+p, h4, h6 {
   color: white; }
+
+.holder {
+  height: 50px;
+  width: 50px;
+  background-color: red; }
+
+.tier-1 {
+  color: red; }
 
 /*# sourceMappingURL=trophy_case.css.map */
