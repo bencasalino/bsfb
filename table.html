@@ -1,0 +1,2431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="bsfb.ico">
+    <!-- title -->
+    <title> BSFB 2016</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Animate CSS Link  -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <!-- table -->
+    <script type="text/javascript" src="tablesorter-master/jquery-latest.js"></script>
+    <script type="text/javascript" src="tablesorter-master/jquery.tablesorter.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="table-responsive">
+            <br>
+            <h4 align="center">Leauge History Table</h4>
+            <section>
+                <table id="myTable" class="tablesorter table table-striped table-condensed table-bordered" align="center">
+                    <thead>
+                        <tr>
+
+                            <!-- acive or inactive -->
+                            <!-- <th> </th> -->
+                            <!-- team colors #1  -->
+                            <!-- <th> </th> -->
+                            <!-- team colors #2  -->
+                            <th> </th>
+                            <th> </th>
+                            <!--owner -->
+                            <th> </th>
+                            <!--team name  -->
+                            <th> Year </th>
+                            <!-- joined -->
+                            <th> </th>
+                            <!-- # -->
+                            <th> Season </th>
+                            <th class="roman header_stripe"> 2008' </th>
+                            <th class="roman header_stripe"> I </th>
+                            <th class="roman"> 2009' </th>
+                            <th class="roman"> II </th>
+                            <th class="roman header_stripe"> 2010'</th>
+                            <th class="roman header_stripe"> III </th>
+                            <th class="roman"> 2011' </th>
+                            <th class="roman"> IV </th>
+                            <th class="roman header_stripe"> 2012' </th>
+                            <th class="roman header_stripe"> V </th>
+                            <th class="roman"> 2013' </th>
+                            <th class="roman"> VI </th>
+                            <th class="roman header_stripe"> 2014' </th>
+                            <th class="roman header_stripe"> VII </th>
+                            <th class="roman header_current"> 2015' </th>
+                            <th class="roman header_current"> VIII </th>
+                            <th class="roman header_inactive"> 2016' </th>
+                            <th class="roman header_inactive"> IX </th>
+                            <th> </th>
+                            <!-- wins  -->
+                            <th> </th>
+                            <!--  losses -->
+                            <th> </th>
+                            <!-- win % -->
+                            <th> Total </th>
+                            <th> </th>
+                            <!-- -->
+                            <th> </th>
+                            <!-- -->
+                            <th> </th>
+                            <!-- -->
+                            <!-- <th> Seasons Completed? </th> -->
+                        </tr>
+                        <tr>
+                            <th> A/I </th>
+                            <!-- <th> H </th> -->
+                            <!-- team colors #1  -->
+                            <!-- <th> A </th> -->
+                            <!-- team colors #2  -->
+                            <th> Owner </th>
+                            <th> Team Name</th>
+                            <th> Joined </th>
+                            <th> # </th>
+                            <th> Total </th>
+                            <th class="win_loss header_stripe">( W</th>
+                            <th class="win_loss header_stripe">L )</th>
+                            <th class="win_loss">( W</th>
+                            <th class="win_loss">L )</th>
+                            <th class="win_loss header_stripe">( W</th>
+                            <th class="win_loss header_stripe">L )</th>
+                            <th class="win_loss">( W</th>
+                            <th class="win_loss">L )</th>
+                            <th class="win_loss header_stripe">( W</th>
+                            <th class="win_loss header_stripe">L )</th>
+                            <th class="win_loss">( W</th>
+                            <th class="win_loss">L )</th>
+                            <th class="win_loss header_stripe">( W</th>
+                            <th class="win_loss header_stripe">L )</th>
+                            <th class="win_loss header_current">( W</th>
+                            <th class="win_loss header_current">L )</th>
+                            <th class="win_loss header_inactive">( W</th>
+                            <th class="win_loss header_inactive">L )</th>
+                            <th> W's </th>
+                            <th> L's </th>
+                            <th> Win % </th>
+                            <th> FPts </th>
+                            <th class="shorten"> Playoffs </th>
+                            <th class="shorten"> Finals </th>
+                            <th class="shorten"> Titles </th>
+                            <!-- <th> Seasons Completed? </th> -->
+                            <!-- WIN total %  -->
+                            <!-- Loss % -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="active">
+                                <img class="commish_icon" src="images_table/cicle.svg">
+                            </td>
+
+                            <td class="owner active "> Ben
+                                <sup><span class="glyphicon glyphicon-star" aria-hidden="true"></span></sup>
+                                <sup><span class="glyphicon glyphicon-star" aria-hidden="true"></span></sup>
+                            </td>
+                            <td class="team_name"> Barles Charkley </td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 001 </td>
+                            <td class="full_seasons" align="center"> 8 </td>
+                            <td class="season_1 second_place" align="center">
+                                14</td>
+                            <td class="season_1 second_place" align="center"> 2 </td>
+                            <td class="season_2 second_place" align="center">
+                                13 </td>
+                            <td class="season_2 second_place" align="center"> 3 </td>
+                            <td class="season_3 first_place" align="center">
+                                7 </td>
+                            <td class="season_3 first_place" align="center"> 7 </td>
+                            <td class="season_4" align="center"> 5 </td>
+                            <td class="season_4" align="center"> 7 </td>
+                            <td class="season_5 first_place" align="center">
+                                10 </td>
+                            <td class="season_5 first_place" align="center"> 6 </td>
+                            <td class="season_6 third_place" align="center">
+                                14 </td>
+                            <td class="season_6 third_place" align="center"> 3 </td>
+                            <td class="season_7 third_place" align="center">
+                                11 </td>
+                            <td class="season_7 third_place" align="center"> 4 </td>
+                            <td class="season_8" align="center"> 11 </td>
+                            <td class="season_8" align="center"> 5 </td>
+                            <td class="season_9"> - </td>
+                            <td class="season_9"> - </td>
+                            <td class="total_wins_85"> 85 </td>
+                            <td class="total_loss_40"> 37 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0</td>
+                            <td class="playoffs"> 7 </td>
+                            <td class="finals"> 4 </td>
+                            <td class="titles"> 2 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="commish_icon" src="images_table/cicle.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active"> Rafa
+                                <sup><span class="glyphicon glyphicon-star" aria-hidden="true"></span></sup></td>
+                            <td class="team_name"> P.N.D.B.</td>
+                            <td class="joined"> 2009 </td>
+                            <td class="join_history"> 012 </td>
+                            <td class="full_seasons" align="center"> 7 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2 forth_place" align="center"> 9 </td>
+                            <td class="season_2 forth_place" align="center"> 7 </td>
+                            <td class="season_3 third_place" align="center"> 8 </td>
+                            <td class="season_3 third_place" align="center"> 6 </td>
+                            <td class="season_4 second_place" align="center"> 8 </td>
+                            <td class="season_4 second_place" align="center"> 4</td>
+                            <td class="season_5 third_place" align="center"> 15 </td>
+                            <td class="season_5 third_place" align="center"> 1</td>
+                            <td class="season_6 first_place" align="center"> 7 </td>
+                            <td class="season_6 first_place" align="center"> 10 </td>
+                            <td class="season_7" align="center"> 6 </td>
+                            <td class="season_7" align="center"> 9 </td>
+                            <td class="season_8" align="center"> 14 </td>
+                            <td class="season_8" align="center"> 2 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_65"> 67 </td>
+                            <td class="total_loss_40"> 39 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 6 </td>
+                            <td class="finals"> 2 </td>
+                            <td class="titles"> 1 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="commish_icon" src="images_table/cicle.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active"> Jon
+                                <sup><span class="glyphicon glyphicon-star" aria-hidden="true"></span></sup>
+                                <sup><span class="glyphicon glyphicon-star" aria-hidden="true"></span></sup>
+                                <sup><span class="glyphicon glyphicon-star" aria-hidden="true"></span></sup> </td>
+                            <td class="team_name"> Windy City Champs</td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 003 </td>
+                            <td class="full_seasons" align="center"> 8 </td>
+                            <td class="season_1 first_place" align="center"> 12 </td>
+                            <td class="season_1 first_place" align="center"> 4 </td>
+                            <td class="season_2 first_place" align="center"> 14 </td>
+                            <td class="season_2 first_place" align="center"> 2 </td>
+                            <td class="season_3 second_place" align="center"> 10 </td>
+                            <td class="season_3 second_place" align="center"> 4 </td>
+                            <td class="season_4" align="center"> 4 </td>
+                            <td class="season_4" align="center"> 8 </td>
+                            <td class="season_5 forth_place" align="center"> 7 </td>
+                            <td class="season_5 forth_place" align="center"> 9 </td>
+                            <td class="season_6 forth_place" align="center"> 15 </td>
+                            <td class="season_6 forth_place" align="center"> 2 </td>
+                            <td class="season_7 first_place" align="center"> 11 </td>
+                            <td class="season_7 first_place" align="center"> 4 </td>
+                            <td class="season_8" align="center"> 11 </td>
+                            <td class="season_8" align="center"> 5 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_85"> 87 </td>
+                            <td class="total_loss_40"> 39 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 7</td>
+                            <td class="finals"> 4 </td>
+                            <td class="titles"> 3 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Z.Zettle </td>
+                            <td class="team_name inactive">Jesus Shuttlesworth </td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 002 </td>
+                            <td class="full_seasons" align="center"> 5 </td>
+                            <td class="season_1" align="center"> 11 </td>
+                            <td class="season_1" align="center"> 5 </td>
+                            <td class="season_2 third_place" align="center"> <img class="medal_bronze_column" src="images_table/dumbbell.svg"> 14 </td>
+                            <td class="season_2 third_place" align="center"> 4 </td>
+                            <td class="season_3 " align="center"> 9 </td>
+                            <td class="season_3 " align="center"> 4 </td>
+                            <td class="season_4 forth_place" align="center"> 8</td>
+                            <td class="season_4 forth_place" align="center"> 4 </td>
+                            <td class="season_5" align="center"> 12 </td>
+                            <td class="season_5" align="center"> 4 </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_50"> 54 </td>
+                            <td class="total_loss_20"> 21</td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 0</td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Yacine</td>
+                            <td class="team_name inactive"> Frat So Hard</td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 004 </td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1" align="center"> 11 </td>
+                            <td class="season_1" align="center"> 5 </td>
+                            <td class="season_2" align="center"> 9 </td>
+                            <td class="season_2" align="center"> 9 </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_20"> 20 </td>
+                            <td class="total_loss_15"> 14 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 1</td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Brady</td>
+                            <td class="team_name inactive">H.H.L.D. </td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 005 </td>
+                            <td class="full_seasons" align="center"> 3 </td>
+                            <td class="season_1" align="center"> 8 </td>
+                            <td class="season_1" align="center"> 8 </td>
+                            <td class="season_2" align="center"> 9 </td>
+                            <td class="season_2" align="center"> 8 </td>
+                            <td class="season_3" align="center"> 7</td>
+                            <td class="season_3" align="center"> 8 </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_25"> 24 </td>
+                            <td class="total_loss_25"> 24 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 2 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Breeden</td>
+                            <td class="team_name inactive">The Mau5Trap </td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 006</td>
+                            <td class="full_seasons" align="center"> 3 </td>
+                            <td class="season_1" align="center"> 9 </td>
+                            <td class="season_1" align="center"> 7 </td>
+                            <td class="season_2" align="center"> 3 </td>
+                            <td class="season_2" align="center"> 13 </td>
+                            <td class="season_3" align="center"> <img class="medal_bronze_column" src="images_table/dumbbell.svg"> 5 </td>
+                            <td class="season_3" align="center"> 9 </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_15"> 17</td>
+                            <td class="total_loss_30"> 29</td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0</td>
+                            <td class="playoffs"> 0</td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Alex</td>
+                            <td class="team_name inactive">Stairway to Kevin </td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 007 </td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1" align="center"> 9 </td>
+                            <td class="season_1" align="center"> 7 </td>
+                            <td class="season_2" align="center"> 11</td>
+                            <td class="season_2" align="center"> 5 </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_20"> 20 </td>
+                            <td class="total_loss_10"> 12 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0</td>
+                            <td class="playoffs"> 1</td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Myles</td>
+                            <td class="team_name inactive"> Bed, Bath & Biyombo</td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 008 </td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1 third_place" align="center"> 9</td>
+                            <td class="season_1 third_place" align="center"> 7</td>
+                            <td class="season_2" align="center"> 10</td>
+                            <td class="season_2" align="center"> 8</td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_20"> 19</td>
+                            <td class="total_loss_15"> 15</td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 2</td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Jordan E. </td>
+                            <td class="team_name inactive">The Lone Granger </td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 009 </td>
+                            <td class="full_seasons" align="center"> 3 </td>
+                            <td class="season_1" align="center"> 10 </td>
+                            <td class="season_1" align="center"> 6 </td>
+                            <td class="season_2" align="center"> 9 </td>
+                            <td class="season_2" align="center"> 9 </td>
+                            <td class="season_3" align="center"> 7 </td>
+                            <td class="season_3" align="center"> 7 </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_20"> 19</td>
+                            <td class="total_loss_15">15 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 2</td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Jordan M. </td>
+                            <td class="team_name inactive"> Coca Scola</td>
+                            <td class="joined"> 2009 </td>
+                            <td class="join_history"> 014 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> 10</td>
+                            <td class="season_2" align="center"> 8 </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center">- </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 10</td>
+                            <td class="total_loss_10">8 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 1</td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active"> Lamar </td>
+                            <td class="team_name">Kyrie On Baggage </td>
+                            <td class="joined"> 2011 </td>
+                            <td class="join_history"> 022 </td>
+                            <td class="full_seasons" align="center"> 5 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> 6 </td>
+                            <td class="season_4" align="center"> 6 </td>
+                            <td class="season_5" align="center"> 4 </td>
+                            <td class="season_5" align="center"> 12 </td>
+                            <td class="season_6" align="center"> <img class="medal_bronze_column" src="images_table/dumbbell.svg"> 9</td>
+                            <td class="season_6" align="center"> 8 </td>
+                            <td class="season_7" align="center"> 3 </td>
+                            <td class="season_7" align="center"> 11 </td>
+                            <td class="season_8" align="center"> 4 </td>
+                            <td class="season_8" align="center"> 12 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_25"> 25 </td>
+                            <td class="total_loss_50"> 50 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs">0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive">Danny </td>
+                            <td class="team_name inactive">How to Train Your Dragic </td>
+                            <td class="joined"> 2009 </td>
+                            <td class="join_history"> 015</td>
+                            <td class="full_seasons" align="center"> 3 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> <img class="medal_bronze_column" src="images_table/thumb.svg"> 2 </td>
+                            <td class="season_2" align="center"> 16 </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4 third_place" align="center"> 9 </td>
+                            <td class="season_4 third_place" align="center"> 3 </td>
+                            <td class="season_5" align="center"> 4 </td>
+                            <td class="season_5" align="center"> 12 </td>
+                            <td class="season_6" align="center"> -</td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_15">15 </td>
+                            <td class="total_loss_30"> 30</td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs">1 </td>
+                            <td class="finals"> 0</td>
+                            <td class="titles">0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active"> Carlo </td>
+                            <td class="team_name">Dude Bros </td>
+                            <td class="joined"> 2009 </td>
+                            <td class="join_history"> 013 </td>
+                            <td class="full_seasons" align="center"> 5 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> 10 </td>
+                            <td class="season_2" align="center"> 8 </td>
+                            <td class="season_3" align="center"> 3 </td>
+                            <td class="season_3" align="center"> 9 </td>
+                            <td class="season_4" align="center"> <img class="medal_bronze_column" src="images_table/dumbbell.svg"> 8</td>
+                            <td class="season_4" align="center"> 4 </td>
+                            <td class="season_5" align="center"> 5</td>
+                            <td class="season_5" align="center"> 11 </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> 4 </td>
+                            <td class="season_8" align="center"> 12 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_30"> 30</td>
+                            <td class="total_loss_40"> 43</td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 1</td>
+                            <td class="finals">0 </td>
+                            <td class="titles"> 0</td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive">A.J. </td>
+                            <td class="team_name inactive">T.I.N.M. </td>
+                            <td class="joined"> 2010 </td>
+                            <td class="join_history"> 019</td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> 8 </td>
+                            <td class="season_3" align="center"> 4 </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 8 </td>
+                            <td class="toal_loss_05"> 4 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 1 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Kristen
+                                <sup><span class="glyphicon glyphicon-star" aria-hidden="true"></span></sup> </td>
+                            <td class="team_name inactive">Team Miguel </td>
+                            <td class="joined"> 2011</td>
+                            <td class="join_history"> 024 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4 first_place" align="center"> 10 </td>
+                            <td class="season_4 first_place" align="center"> 2 </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 12</td>
+                            <td class="total_loss_00"> 2 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0</td>
+                            <td class="playoffs"> 1 </td>
+                            <td class="finals"> 1</td>
+                            <td class="titles"> 1</td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Rudy</td>
+                            <td class="team_name inactive">Griffin & Co. </td>
+                            <td class="joined"> 2010 </td>
+                            <td class="join_history"> 017 </td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1" align="center"> -</td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> 9 </td>
+                            <td class="season_3" align="center"> 5 </td>
+                            <td class="season_4" align="center"> 7 </td>
+                            <td class="season_4" align="center"> 5 </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_15"> 16</td>
+                            <td class="total_loss_10"> 10</td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 0</td>
+                            <td class="finals"> 0</td>
+                            <td class="titles"> 0</td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Edde </td>
+                            <td class="team_name inactive"> My House Turtles</td>
+                            <td class="joined"> 2010 </td>
+                            <td class="join_history"> 018 </td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3 forth_place" align="center"> 7 </td>
+                            <td class="season_3 forth_place" align="center"> 5 </td>
+                            <td class="season_4" align="center"> 5 </td>
+                            <td class="season_4" align="center"> 7 </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 12 </td>
+                            <td class="total_loss_10"> 12 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs">1 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Josh </td>
+                            <td class="team_name inactive">Team Ale </td>
+                            <td class="joined"> 2011 </td>
+                            <td class="join_history"> 021 </td>
+                            <td class="full_seasons" align="center"> 3 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> 1 </td>
+                            <td class="season_4" align="center"> 11 </td>
+                            <td class="season_5" align="center"> <img class="medal_bronze_column" src="images_table/dumbbell.svg"> 10 </td>
+                            <td class="season_5" align="center"> 6 </td>
+                            <td class="season_6" align="center"> <img class="medal_bronze_column" src="images_table/thumb.svg"> 1 </td>
+                            <td class="season_6" align="center"> 16 </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 12 </td>
+                            <td class="total_loss_30"> 31</td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0</td>
+                            <td class="playoffs"> 1</td>
+                            <td class="finals"> 0</td>
+                            <td class="titles"> 0</td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Marcco </td>
+                            <td class="team_name inactive">Team Zags </td>
+                            <td class="joined"> 2011 </td>
+                            <td class="join_history"> 023 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> <img class="medal_bronze_column" src="images_table/thumb.svg"> 1 </td>
+                            <td class="season_4" align="center"> 11 </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_00">1 </td>
+                            <td class="total_loss_10">11 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 0</td>
+                            <td class="finals"> 0</td>
+                            <td class="titles">0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Matt </td>
+                            <td class="team_name inactive"> Captain Badass </td>
+                            <td class="joined"> 2012 </td>
+                            <td class="join_history"> 028 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5 second_place" align="center"> 9 </td>
+                            <td class="season_5 second_place" align="center"> 7 </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 9</td>
+                            <td class="total_loss_10"> 7</td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 1</td>
+                            <td class="finals"> 1</td>
+                            <td class="titles"> 0</td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Kenny </td>
+                            <td class="team_name inactive"> Team Badass</td>
+                            <td class="joined"> 2012 </td>
+                            <td class="join_history"> 027 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> 11</td>
+                            <td class="season_5" align="center"> 5</td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 11 </td>
+                            <td class="total_loss_05"> 5 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs">1 </td>
+                            <td class="finals"> 0</td>
+                            <td class="titles"> 0</td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive">Langston </td>
+                            <td class="team_name inactive"> Arcata Rage </td>
+                            <td class="joined"> 2012 </td>
+                            <td class="join_history"> 026 </td>
+                            <td class="full_seasons" align="center"> 7 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> 7 </td>
+                            <td class="season_5" align="center"> 9 </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 7 </td>
+                            <td class="total_loss_10"> 9 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs">0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active">Adam </td>
+                            <td class="team_name"> Stone Rockz </td>
+                            <td class="joined"> 2013 </td>
+                            <td class="join_history"> 029</td>
+                            <td class="full_seasons" align="center"> 3 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6 second_place" align="center"> 13 </td>
+                            <td class="season_6 second_place" align="center"> 4 </td>
+                            <td class="season_7 second_place" align="center"> 13 </td>
+                            <td class="season_7 second_place" align="center"> 2 </td>
+                            <td class="season_8" align="center"> 9 </td>
+                            <td class="season_8" align="center"> 7 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_40"> 35 </td>
+                            <td class="total_loss_15"> 13 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 2</td>
+                            <td class="finals"> 2 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Robbie </td>
+                            <td class="team_name inactive"> G.D. Rose</td>
+                            <td class="joined"> 2013 </td>
+                            <td class="join_history"> 031</td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> 3 </td>
+                            <td class="season_6" align="center"> 14 </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 3 </td>
+                            <td class="total_loss_15"> 14 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 0</td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Mark</td>
+                            <td class="team_name inactive"> K.P.P.M. </td>
+                            <td class="joined"> 2014 </td>
+                            <td class="join_history"> 034</td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7 forth_place" align="center"> 9 </td>
+                            <td class="season_7 forth_place" align="center"> 6 </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 9 </td>
+                            <td class="total_loss_05"> 6 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 1 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Jimmy </td>
+                            <td class="team_name inactive"> Manute Balls</td>
+                            <td class="joined"> 2013 </td>
+                            <td class="join_history"> 030</td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> 6 </td>
+                            <td class="season_6" align="center"> 11 </td>
+                            <td class="season_7" align="center"> 6 </td>
+                            <td class="season_7" align="center"> 9 </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 12 </td>
+                            <td class="total_loss_20"> 20 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active"> Chris </td>
+                            <td class="team_name"> Toronto Faptors </td>
+                            <td class="joined"> 2014 </td>
+                            <td class="join_history"> 032</td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> 8 </td>
+                            <td class="season_7" align="center"> 7 </td>
+                            <td class="season_8" align="center"> <img class="medal_bronze_column" src="images_table/dumbbell.svg"> 10 </td>
+                            <td class="season_8" align="center"> 6 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_20"> 18 </td>
+                            <td class="total_loss_15"> 13 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 2 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Zach </td>
+                            <td class="team_name inactive">Coon & Friends </td>
+                            <td class="joined"> 2014 </td>
+                            <td class="join_history"> 033</td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> 4 </td>
+                            <td class="season_7" align="center"> 10 </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 4 </td>
+                            <td class="total_loss_10"> 10 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Jess </td>
+                            <td class="team_name inactive"> Z Bo </td>
+                            <td class="joined"> 2014 </td>
+                            <td class="join_history"> 035</td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> 7 </td>
+                            <td class="season_7" align="center"> 8 </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 7 </td>
+                            <td class="total_loss_10"> 8 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0 </td>
+                            <td class="playoffs"> 0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Scott M. </td>
+                            <td class="team_name inactive"> B.T.T.W. </td>
+                            <td class="joined"> 2014 </td>
+                            <td class="join_history"> 036</td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> 9 </td>
+                            <td class="season_7" align="center"> 6 </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 9 </td>
+                            <td class="total_loss_05"> 6 </td>
+                            <td class="percentage_won_"> .000% </td>
+                        <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 1 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Jesse </td>
+                            <td class="team_name inactive"> AZ Smashers </td>
+                            <td class="joined"> 2014 </td>
+                            <td class="join_history"> 037 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> 8 </td>
+                            <td class="season_7" align="center"> 7 </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 8 </td>
+                            <td class="total_loss_10"> 7 </td>
+                            <td class="percentage_won_"> .000% </td>
+                    <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 1 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Andy </td>
+                            <td class="team_name inactive"> Mugsy Balls</td>
+                            <td class="joined"> 2014 </td>
+                            <td class="join_history"> 038</td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> <img class="medal_bronze_column" src="images_table/thumb.svg"> 1 </td>
+                            <td class="season_7" align="center"> 13 </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_00"> 1 </td>
+                            <td class="total_loss_15"> 13 </td>
+                            <td class="percentage_won_"> .000% </td>
+                    <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active"> Burges </td>
+                            <td class="team_name inactive">H.V. All Stars</td>
+                            <td class="joined"> 2015 </td>
+                            <td class="join_history"> 040 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> 7 </td>
+                            <td class="season_8" align="center"> 9 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 7 </td>
+                            <td class="total_loss_10"> 9 </td>
+                            <td class="percentage_won_"> .000% </td>
+                        <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active">Mateo </td>
+                            <td class="team_name">Miami Notorious</td>
+                            <td class="joined"> 2015 </td>
+                            <td class="join_history"> 039</td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> <img class="medal_bronze_column" src="images_table/thumb.svg">3 </td>
+                            <td class="season_8" align="center"> 13 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 3 </td>
+                            <td class="total_loss_15"> 13 </td>
+                            <td class="percentage_won_"> .000% </td>
+                    <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active"> James </td>
+                            <td class="team_name">56 Nights </td>
+                            <td class="joined"> 2015 </td>
+                            <td class="join_history"> 041 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> 4 </td>
+                            <td class="season_8" align="center"> 12 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 4 </td>
+                            <td class="total_loss_10"> 12 </td>
+                            <td class="percentage_won_"> .000% </td>
+                                <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg">
+                            </td>
+
+
+
+
+                            <td class="owner active"> Tanner </td>
+                            <td class="team_name">S.D.S.O.A.B. </td>
+                            <td class="joined"> 2015 </td>
+                            <td class="join_history"> 043 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> 7 </td>
+                            <td class="season_8" align="center"> 9 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 7 </td>
+                            <td class="total_loss_10"> 9 </td>
+                            <td class="percentage_won_"> .000% </td>
+    <td class="all_time_pts">0 </td>
+                                <td class="playoffs"> 1 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="active">
+                                <img class="jersey" src="images_table/test.svg"> </td>
+
+
+
+
+                            <td class="owner active"> Craig </td>
+                            <td class="team_name">Pops for Three</td>
+                            <td class="joined"> 2015 </td>
+                            <td class="join_history"> 042 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> 13 </td>
+                            <td class="season_8" align="center"> 3 </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_15"> 13 </td>
+                            <td class="total_loss_00"> 3 </td>
+                            <td class="percentage_won_"> .000% </td>
+        <td class="all_time_pts">0 </td>
+                            <td class="playoffs"> 1 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Chad </td>
+                            <td class="team_name inactive">Biz Markieff </td>
+                            <td class="joined"> 2010 </td>
+                            <td class="join_history"> 020 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> <img class="medal_bronze_column" src="images_table/thumb.svg"> 1 </td>
+                            <td class="season_3" align="center"> 13 </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_00">1 </td>
+                            <td class="total_loss_15">13 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs">0 </td>
+                            <td class="finals">0 </td>
+                            <td class="titles">0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> R. Zettle</td>
+                            <td class="team_name inactive"> Grand Theft Rondo </td>
+                            <td class="joined"> 2009 </td>
+                            <td class="join_history"> 016 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> 5 </td>
+                            <td class="season_2" align="center"> 13 </td>
+                            <td class="season_3" align="center"> -</td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 5 </td>
+                            <td class="total_loss_15"> 13 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs">0 </td>
+                            <td class="finals">0 </td>
+                            <td class="titles">0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Paul </td>
+                            <td class="team_name inactive"> Home Oladipo </td>
+                            <td class="joined"> 2012 </td>
+                            <td class="join_history"> 025 </td>
+                            <td class="full_seasons" align="center"> 1 </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_1" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_2" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> <img class="medal_bronze_column" src="images_table/thumb.svg"> 4</td>
+                            <td class="season_5" align="center"> 12 </td>
+                            <td class="season_6" align="center"> -</td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_05"> 4 </td>
+                            <td class="total_loss_10"> 12 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts"> 0</td>
+                            <td class="playoffs"> 0 </td>
+                            <td class="finals"> 0 </td>
+                            <td class="titles"> 0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive"> Flittie </td>
+                            <td class="team_name inactive"> LeBrontosaurus </td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 010 </td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1" align="center">  <img class="medal_bronze_column" src="images_table/thumb.svg"> 5 </td>
+                            <td class="season_1" align="center"> 11 </td>
+                            <td class="season_2" align="center"> 5 </td>
+                            <td class="season_2" align="center"> 13 </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_10"> 10 </td>
+                            <td class="total_loss_25"> 24 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs">0 </td>
+                            <td class="finals">0 </td>
+                            <td class="titles">0 </td>
+                        </tr>
+                        <tr>
+                            <td class="inactive">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </td>
+
+
+
+
+                            <td class="owner inactive">Scott P. </td>
+                            <td class="team_name inactive">808's and Fastbreaks</td>
+                            <td class="joined"> 2008 </td>
+                            <td class="join_history"> 011 </td>
+                            <td class="full_seasons" align="center"> 2 </td>
+                            <td class="season_1 forth_place" align="center"> 10 </td>
+                            <td class="season_1 forth_place" align="center"> 6 </td>
+                            <td class="season_2" align="center"> 9 </td>
+                            <td class="season_2" align="center"> 7 </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_3" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_4" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_5" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_6" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_7" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_8" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="season_9" align="center"> - </td>
+                            <td class="total_wins_20">19 </td>
+                            <td class="total_loss_15">15 </td>
+                            <td class="percentage_won_"> .000% </td>
+                            <td class="all_time_pts">0 </td>
+                            <td class="playoffs">2 </td>
+                            <td class="finals">0 </td>
+                            <td class="titles">0 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+    <div class="wrapper">
+<div class="row">
+    <div class="col-md-7">
+    <!-- legend here   -->
+    <div class="container-fluid">
+        <div class="table-responsive">
+            <section align="center">
+                <table class="table no_border" align="center">
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th>
+                                    Owner Type
+                                </th>
+                                <th>
+                                    Top 4 Standings
+                                </th>
+                                <th>
+                                    Season Awards
+                                </th>
+                                <th>
+                                Awards cont.
+                                </th>
+                                <th>
+                                    HOF Eligilbity
+                                </th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td align="left"> <span class="glyphicon glyphicon-user" aria-hidden="true" align="left"></span>  = Inactive Manager</td>
+                            <td align="left"> <img class="medal_gold_column" src="images_table/gold.svg"> = 1<sup>st</sup> Place </td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/hoop.svg">       = Best Season Record</td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/belt.svg">     = 1+ Championship </td>
+                            <td align="left">  <img class="medal_bronze_column" src="images_table/shoe.svg">   = HOF Eligble </td>
+                        </tr>
+                        <tr>
+                            <td align="left"> <img class="jersey" src="images_table/test.svg" align="left"> = Active Manager </td>
+                            <td align="left"> <img class="medal_silver_column" src="images_table/silver.svg"> = 2<sup>nd</sup> Place </td></td>
+                            <td align="left"> <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> = Best Draft Pick</td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/hourglass.svg">           = 5+ years </td>
+                            <td align="left">  <img class="medal_bronze_column" src="images_table/king.svg"> = HOF Member </td>
+                        </tr>
+                        <tr>
+                            <td align="left"> <img class="commish_icon_legend" src="images_table/cicle.svg" align="left" height="10px" width="10px"> = Commish </td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/bronze.svg"> = 3<sup>rd</sup> Place </td></td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/cert.svg">   = Best Waiver Aquisition</td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/win.svg">      = 50+ Wins </td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/thumb.svg"> = Last Place   </td>
+                        </tr>
+                        <tr>
+                            <td align="left">     </td>
+                            <td align="left">    <img class="medal_bronze_column" src="images_table/basketball.svg">    = Playoffs Made    </td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/court.svg">      = Rookie of the Year</td>
+                            <td align="left"> <img class="medal_bronze_column" src="images_table/chart.svg">      = 100k Total Pts</td>
+                            <td align="left">  <img class="medal_bronze_column" src="images_table/dumbbell.svg"> = Most Improved </td>
+                        </tr>
+                        <tr>
+                                <td align="left">       </td>
+                                <td align="left">   </td>
+                                <td align="left">   </td>
+                                <td align="left">   </td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-5">
+        <!--  years here  -->
+        <div class="container-fluid">
+            <div class="table-responsive">
+                <!-- <h4 align="center"> Seasons </h4> -->
+                <section align="center">
+                    <table class="table" align="center">
+                        <thead>
+                            <th>
+                                Era I
+                            </th>
+                            <th>
+                                Era II
+                            </th>
+                            <th>
+                                Era III
+                            </th>
+                            <th>
+                                Era IV
+                            </th>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <!-- <th> Dynasty - Jon </th> -->
+                                <td align="left"> Season I: 08-09' </td>
+                                <td align="left"> Season IV: 11-12' </td>
+                                <td align="left"> Season VII: 14-15' </td>
+                                <td align="left">Season X: 17-18'</td>
+                            </tr>
+                            <tr>
+                                <td align="left"> Season II: 09-10' </td>
+                                <td align="left"> Season V: 12-13'' </td>
+                                <td align="left"> Season VIII: 15-16' </td>
+                                <td align="left">Season XI: 18-19'  </td>
+                            </tr>
+                            <tr>
+                                <td align="left"> Season III: 10-11' </td>
+                                <td align="left"> Season VI:  13-14' </td>
+                                <td align="left"> Season IX: 16-17' </td>
+                                <td align="left">Season XII: 19-20' </td>
+
+                            </tr>
+                            <tr>
+                                <td align="left"> <strong>Dynasty I:</strong> - </td>  <!-- era 1 dynasty champ -->
+                                <td align="left">  <strong>Dynasty II:</strong> - </td>  <!-- era 2 dynasty champ -->
+                                <td align="left"> <strong>Dynasty III:</strong> - </td>  <!-- era 3 dynasty champ -->
+                                <td align="left"><strong>Dynasty IV:</strong> -  </td>  <!-- era 4 dynasty champ -->
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="table-responsive">
+        <h4 align="center"> Trophy Case</h4>
+        <section align="center">
+            <table id="myTable " class="tablesorter table table-striped table-bordered table-condensed" align="center">
+                <tbody>
+                    <thead>
+                        <tr>
+                            <th>
+                                Manager Name
+                            </th>
+                            <th> 3rd </th>
+                            <th> 2nd </th>
+                            <th> 1st </th>
+                            <th> 100k </th>
+                            <th> 50 Wins </th>
+                            <th> 5 Years </th>
+                            <th> 1+Champ </th>
+                            <th>
+                                HOF Eliglbe
+                            </th>
+                            <th>
+                                HOF Member
+                            </th>
+                            <th> Best Season Record </th>
+                            <th> Playoffs Made </th>
+
+                        </tr>
+                    </thead>
+
+                    <tr>
+                        <td class="trophy_manager" align="left"> Jon </td>
+                        <!-- MANAGER NAME  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_silver_column" src="images_table/silver.svg"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_gold_column" src="images_table/gold.svg">,
+                            <img class="medal_gold_column" src="images_table/gold.svg">,
+                            <img class="medal_gold_column" src="images_table/gold.svg"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/chart.svg"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/win.svg">
+                        </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/hourglass.svg"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> 3x
+                            <img class="medal_bronze_column" src="images_table/belt.svg">,
+                            <img class="medal_bronze_column" src="images_table/belt.svg">,
+                            <img class="medal_bronze_column" src="images_table/belt.svg"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left"> Eligible 2017</td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> 3x
+                            <img class="medal_bronze_column" src="images_table/hoop.svg">,
+                            <img class="medal_bronze_column" src="images_table/hoop.svg">,
+                            <img class="medal_bronze_column" src="images_table/hoop.svg"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left"> 7x
+                            <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                            <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                        <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                    <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                <img class="medal_bronze_column" src="images_table/basketball.svg">,
+            <img class="medal_bronze_column" src="images_table/basketball.svg">,
+        <img class="medal_bronze_column" src="images_table/basketball.svg">  </td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+
+
+                    <tr>
+                        <td class="trophy_manager" align="left"> Ben </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/bronze.svg"> ,
+                            <img class="medal_bronze_column" src="images_table/bronze.svg"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_silver_column" src="images_table/silver.svg">,
+                            <img class="medal_silver_column" src="images_table/silver.svg"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_gold_column" src="images_table/gold.svg">,
+                            <img class="medal_gold_column" src="images_table/gold.svg"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/chart.svg"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/win.svg">
+                        </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/hourglass.svg"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> 2x
+                            <img class="medal_bronze_column" src="images_table/belt.svg">,
+                            <img class="medal_bronze_column" src="images_table/belt.svg">
+                        </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left"> Eligible 2017</td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> 1x
+                            <img class="medal_bronze_column" src="images_table/hoop.svg"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left"> 7x
+                        <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                    <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                <img class="medal_bronze_column" src="images_table/basketball.svg">,
+            <img class="medal_bronze_column" src="images_table/basketball.svg">,
+        <img class="medal_bronze_column" src="images_table/basketball.svg">,
+    <img class="medal_bronze_column" src="images_table/basketball.svg">,
+<img class="medal_bronze_column" src="images_table/basketball.svg"> </td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+
+
+                    <tr>
+                        <td class="trophy_manager" align="left"> Rafa </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/bronze.svg"> ,
+                            <img class="medal_bronze_column" src="images_table/bronze.svg">
+                        </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_silver_column" src="images_table/silver.svg"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_gold_column" src="images_table/gold.svg"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/chart.svg"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/win.svg">
+                        </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/hourglass.svg"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> 1x
+                            <img class="medal_bronze_column" src="images_table/belt.svg"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left">Eligible 2017 </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> 2x
+                            <img class="medal_bronze_column" src="images_table/hoop.svg">,
+                            <img class="medal_bronze_column" src="images_table/hoop.svg"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left"> 6x
+                        <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                    <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                <img class="medal_bronze_column" src="images_table/basketball.svg">,
+            <img class="medal_bronze_column" src="images_table/basketball.svg">,
+        <img class="medal_bronze_column" src="images_table/basketball.svg">,
+    <img class="medal_bronze_column" src="images_table/basketball.svg"> </td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+                    <tr>
+                        <td class="trophy_manager" align="left"> Kristen </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_gold_column" src="images_table/gold.svg"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> 1x
+                            <img class="medal_bronze_column" src="images_table/belt.svg"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/shoe.svg"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left">  </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> 1x
+                            <img class="medal_bronze_column" src="images_table/hoop.svg"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left"> 1x <img class="medal_bronze_column" src="images_table/basketball.svg"> </td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+                    <tr>
+                        <td class="trophy_manager" align="left"> Adam </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_silver_column" src="images_table/silver.svg">,
+                            <img class="medal_silver_column" src="images_table/silver.svg"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> 1x
+                            <img class="medal_bronze_column" src="images_table/hoop.svg"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left">2x
+                            <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                        <img class="medal_bronze_column" src="images_table/basketball.svg"> </td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+                    <tr>
+                        <td class="trophy_manager" align="left"> Matt </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_silver_column" src="images_table/silver.svg"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left">1x <img class="medal_bronze_column" src="images_table/basketball.svg"> </td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+                    <tr>
+                        <td class="trophy_manager" align="left"> Zettle </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/bronze.svg"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/win.svg"> </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/hourglass.svg"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/shoe.svg">|
+                            <img class="medal_bronze_column" src="images_table/shoe.svg"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left">4x
+                        <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                    <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                <img class="medal_bronze_column" src="images_table/basketball.svg">,
+            <img class="medal_bronze_column" src="images_table/basketball.svg"></td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+                    <tr>
+                        <td class="trophy_manager" align="left"> Danny </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/bronze.svg"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left">1x <img class="medal_bronze_column" src="images_table/basketball.svg"></td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+
+                    <tr>
+                        <td class="trophy_manager" align="left"> Myles </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/bronze.svg"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left"> 2x <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                        <img class="medal_bronze_column" src="images_table/basketball.svg"></td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+                    <tr>
+                        <td class="trophy_manager" align="left"> Lamar </td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/hourglass.svg"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/shoe.svg"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left">  </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left">  2x <img class="medal_bronze_column" src="images_table/basketball.svg">,
+                        <img class="medal_bronze_column" src="images_table/basketball.svg"></td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+                    <tr>
+                        <td class="trophy_manager" align="left"> Carlo</td>
+                        <!-- MANAGER NAME  -->
+
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 3RD  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 2ND  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- 1ST  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_100K  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_50 WINS  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/hourglass.svg"> </td>
+                        <!-- HOF_5YEARS  -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF_1+CHAMP  -->
+                        <td class="trophy_" align="left">
+                            <img class="medal_bronze_column" src="images_table/shoe.svg"> </td>
+                        <!-- HOF ELIG -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- HOF MEMBER -->
+                        <td class="trophy_" align="left"> </td>
+                        <!-- REG SEA CHAMP  -->
+                        <td class="trophy_" align="left"> 1x <img class="medal_bronze_column" src="images_table/basketball.svg">,<img class="medal_bronze_column" src="images_table/basketball.svg"> </td>
+                        <!-- DRAFT  -->
+
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
+
+
+
+
+
+
+            <!--table sorter script   -->
+            <script>
+                // add more comments on what this is actually doin, maybe diff format for date?
+                $(document).ready(function() {
+                    $("#myTable").tablesorter({
+                        sortList: [
+                            [0, 0],
+                            [1, 0]
+                        ]
+                    });
+                });
+            </script>
+            <!--scripts for wow js   -->
+            <script src="WOW-master/dist/wow.min.js"></script>
+            <script>
+                new WOW().init();
+            </script>
+</body>
+
+</html>

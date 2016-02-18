@@ -1,0 +1,353 @@
+
+// .sea1{
+// 	color:red;
+// 	background-color: grey;
+// }
+
+
+.full_seasons {
+align-self: center;
+}
+
+.roman{
+	color:black;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.win_loss {
+	color:black;
+	font-size: 10px;
+}
+.sortable {
+	font-size: 5px;
+}
+
+td {
+	color:black;
+	font-size: 11px;
+	// : 2px;
+}
+
+th {
+	font-size: 11px;
+	background-color: #F0F0F0 	;
+	// padding: 1px;
+}
+
+
+ .header_stripe {
+	 background-color: #cccccc;
+	 color: black;
+ }
+
+.header_current {
+	background-color: #a6a6a6;
+	color:white;
+
+}
+
+.header_inactive {
+	background-color: #404040;
+	color: white;
+}
+.inactive {
+	font-style: italic;
+	color:grey;
+}
+
+
+.active {
+	font-style: bold;
+	color:black;
+}
+
+
+
+.commish {
+	color:black;
+}
+
+
+.user {
+	color:grey;
+}
+// make the active/inactive a user glyphicon in its OWN column before owner name so it can be sortable (basically a this season only button)
+
+
+
+//add star glyphicon to titles column
+.first_place {
+	background-color: #E0BA22;
+
+}
+.second_place{
+	background-color: #AAAAAA;
+}
+.third_place{
+	background-color: #99773D;
+
+}
+// .forth_place{
+// 	background-color: #E1E1E1;
+// }
+
+.last_place{}
+.roy{}
+// or somekind of glyphicon might be a better solution for this one
+
+// somthing to denot if team made playoffs glyphicon super small px size
+//something to denote lockout season *
+// denote in legend that wins does NTOT include playoff wins
+// add a playoffs win column
+// 2 team colors tab
+
+// hometown tab?
+// team logo spot for futrue?
+
+// icon in legend maybe a banner to denote hall of hame eligilbity for each cat of 4 and then another one for incudted
+// gradient from highest to lowest
+
+.alltime_10k {
+color:lightblue;
+opacity: 90%;
+}
+.alltime_20k {
+	color:lightblue;
+	opacity: 20%;
+}
+.alltime_30k {
+	color:lightblue;
+	opacity: 30%;
+}
+.alltime_40k {
+	color:lightblue;
+	opacity: 40%;
+}
+.alltime_50k {
+	color:lightblue;
+	opacity: 50%;
+}
+.alltime_60k {
+	color:lightblue;
+	opacity: 60%;
+}
+.alltime_70k {
+	color:lightblue;
+	opacity: 70%;
+}
+.alltime_80k {
+	color:lightblue;
+	opacity: 80%;
+}
+.alltime_90k {
+	color:lightblue;
+	opacity: 90%;
+}
+
+.alltime_100k {
+	color:lightblue;
+	opacity: 100%;
+}
+
+
+
+
+
+
+// gradient from highest to lowest
+.total_wins_00 {
+	background-color: #F8F8F8
+}
+
+
+.total_wins_05 {
+background-color:#e6f2ff;
+color:black;
+
+}
+.total_wins_10 {
+	background-color: #cce6ff;
+	color:black;
+
+}
+.total_wins_15 {
+	background-color: #b3d9ff;
+	color:black;
+
+}
+.total_wins_20 {
+	background-color:#99ccff;
+	color:black;
+
+}
+.total_wins_25 {
+	background-color:#80bfff;
+	color:black;
+
+}
+.total_wins_30 {
+	background-color:#66b3ff;
+	color:black;
+
+}
+.total_wins_40 {
+	background-color:#4da6ff;
+	color:black;
+
+}
+.total_wins_50 {
+	background-color:#3399ff;
+	color:black;
+
+}
+.total_wins_65 {
+	background-color:#1a8cff;
+	color:black;
+
+}
+
+.total_wins_85 {
+	background-color:#0080ff;
+	color:black;
+
+}
+
+
+// gradient from highest to lowest
+.total_loss_00 {
+	background-color: #F8F8F8
+}
+
+
+.total_loss_05 {
+background-color:#FFD7D7;
+color:black;
+
+}
+.total_loss_10 {
+	background-color: #FFB6B6;
+	color:black;
+
+}
+.total_loss_15 {
+	background-color:#FFA4A4;
+	color:black;
+
+}
+.total_loss_20 {
+	background-color:#FC8888;
+	color:black;
+
+}
+.total_loss_25 {
+	background-color:#FF6C6C;
+	color:black;
+
+}
+.total_loss_30 {
+	background-color:#FC5656;
+	color:black;
+
+}
+.total_loss_35 {
+	background-color:#FF3939;
+	color:black;
+
+}
+.total_loss_40 {
+	background-color:#FF1D1D;
+	color:black;
+
+}
+
+.total_loss_50 {
+	background-color:#FF001F;
+	color:black;
+}
+
+
+
+.first_box {
+	width:20px;
+	height: 20px;
+
+}
+
+
+
+
+.glyphicon-star {
+	color: black;
+	font-size: .8em;
+}
+
+
+.jersey {
+	height:1.5em;
+	width:1.5em;
+}
+
+
+.commish_icon {
+	height:1.4em;
+	width:1.4em;
+}
+.commish_icon_legend {
+	height:1.2em;
+	width:1.2em;
+}
+
+
+
+.medal_gold {
+	height:1.2em;
+	width:1.2em;
+}
+.medal_silver {
+	height:1.2em;
+	width:1.2em;
+}
+.medal_bronze {
+	height:1.2em;
+	width:1.2em;
+}
+
+// .medal_gold_column {
+// 	height:1em;
+// 	width:1em;
+// }
+// .medal_silver_column {
+// 	height:1em;
+// 	width:1em;
+// }
+// .medal_bronze_column {
+// 	height:1em;
+// 	width:1em;
+// }
+
+
+.icon_column_test {
+	height:.5em;
+	width:.5em;
+}
+
+
+.shorten {
+	font-size: 08px;
+}
+
+
+.legend_column {
+	margin:15px;
+
+}
+
+.no_border {
+	   border-top: none !important;
+
+}
+
+
+.inactive_grey {
+	color:grey;}
