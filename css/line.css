@@ -1,0 +1,62 @@
+
+
+.owner_ben {
+    color:rgba(255, 128, 0,1) ;
+}
+
+.owner_rafa {
+    color:rgba(255, 0, 0,1) ;
+}
+
+.owner_jon {
+    color:rgba(255, 255, 0,1) ;
+}
+
+.owner_adam {
+    color: rgba(255, 191, 0,1);
+}
+
+.owner_chris {
+    color: rgba(0, 255, 191,1);
+}
+
+.owner_carlo {
+    color:rgba(128, 64, 255,1) ;
+}
+
+.owner_tanner {
+    color: rgba(255, 0, 128,1);
+}
+
+.owner_craig{
+    color: rgba(128, 255, 0,1) ;
+}
+
+.owner_burges {
+    color:rgba(255, 0, 255,1) ;
+}
+
+.owner_lamar {
+    color: rgba(0, 255, 255,1);
+}
+
+.owner_james {
+    color: rgba(0, 191, 255,1) ;
+}
+
+.owner_mateo {
+    color: rgba(0, 64, 255,1);
+}
+
+
+
+
+.black {
+    color:black;
+}
+
+
+
+body {
+    background-color: #d3d3d3;
+}
