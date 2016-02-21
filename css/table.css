@@ -222,6 +222,10 @@ th {
   height: 1em;
   width: 1em; }
 
+.icon_column_test {
+  height: .5em;
+  width: .5em; }
+
 .shorten {
   font-size: 08px; }
 
@@ -231,4 +235,31 @@ th {
 .no_border {
   border-top: none !important; }
 
-/*# sourceMappingURL=test.css.map */
+.inactive_grey {
+  color: grey; }
+
+.second_team_2008 {
+  background-color: lightgray; }
+
+.second_team_2009 {
+  background-color: silver; }
+
+.second_team_2010 {
+  background-color: darkgray; }
+
+.second_team_2011 {
+  background-color: lightgray; }
+
+.second_team_2012 {
+  background-color: silver; }
+
+.second_team_2013 {
+  background-color: darkgray; }
+
+.second_team_2014 {
+  background-color: lightgray; }
+
+.second_team_2015 {
+  background-color: silver; }
+
+/*# sourceMappingURL=table.css.map */
