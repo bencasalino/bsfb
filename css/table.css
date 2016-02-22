@@ -262,4 +262,11 @@ th {
 .second_team_2015 {
   background-color: silver; }
 
+.color_first {
+  background-color: rgba(255, 192, 129, 0.5); }
+
+.first_team_icon {
+  height: 4em;
+  width: 4em; }
+
 /*# sourceMappingURL=table.css.map */
