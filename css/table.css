@@ -184,7 +184,7 @@ th {
 
 .glyphicon-star {
   color: black;
-  font-size: .8em; }
+  font-size: 0.8em; }
 
 .jersey {
   height: 1.5em;
@@ -223,11 +223,11 @@ th {
   width: 1em; }
 
 .icon_column_test {
-  height: .5em;
-  width: .5em; }
+  height: 0.5em;
+  width: 0.5em; }
 
 .shorten {
-  font-size: 08px; }
+  font-size: 8px; }
 
 .legend_column {
   margin: 15px; }

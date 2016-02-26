@@ -1,336 +1,280 @@
 // notes //
 // gradient from highest to lowest better color funstions on there possibly use rgba %'s
-
 .full_seasons {
-align-self: center;
+    align-self: center;
 }
-
-.roman{
-	color:black;
-	font-size: 9px;
-	font-weight: bold;
+.roman {
+    color: black;
+    font-size: 9px;
+    font-weight: bold;
 }
-
 .win_loss {
-	color:black;
-	font-size: 10px;
+    color: black;
+    font-size: 10px;
 }
 .sortable {
-	font-size: 5px;
+    font-size: 5px;
 }
-
 td {
-	color:black;
-	font-size: 11px;
-	// : 2px;
+    color: black;
+    font-size: 11px;
+    // : 2px;
 }
-
 th {
-	font-size: 11px;
-	background-color: #F0F0F0 	;
-	// padding: 1px;
+    font-size: 11px;
+    background-color: #F0F0F0;
+    // padding: 1px;
 }
-
- .header_stripe {
-	 background-color: #cccccc;
-	 color: black;
- }
-
+.header_stripe {
+    background-color: #cccccc;
+    color: black;
+}
 .header_current {
-	background-color: #a6a6a6;
-	color:white;
+    background-color: #a6a6a6;
+    color: white;
 }
-
 .header_inactive {
-	background-color: #404040;
-	color: white;
+    background-color: #404040;
+    color: white;
 }
 .inactive {
-	font-style: italic;
-	color:grey;
+    font-style: italic;
+    color: grey;
 }
-
 .active {
-	font-style: bold;
-	color:black;
+    font-style: bold;
+    color: black;
 }
-
 .commish {
-	color:black;
+    color: black;
 }
-
-
 .user {
-	color:grey;
+    color: grey;
 }
-
-
 .first_place {
-	background-color: #E0BA22;
+    background-color: #E0BA22;
 }
-.second_place{
-	background-color: #AAAAAA;
+.second_place {
+    background-color: #AAAAAA;
 }
-.third_place{
-	background-color:
-rgba(205,127,50,0.75);
-
+.third_place {
+    background-color: rgba(205,127,50,0.75);
 }
-
-
 .alltime_10k {
-color:lightblue;
-opacity: 90%;
+    color: lightblue;
+    opacity: 90%;
 }
 .alltime_20k {
-	color:lightblue;
-	opacity: 20%;
+    color: lightblue;
+    opacity: 20%;
 }
 .alltime_30k {
-	color:lightblue;
-	opacity: 30%;
+    color: lightblue;
+    opacity: 30%;
 }
 .alltime_40k {
-	color:lightblue;
-	opacity: 40%;
+    color: lightblue;
+    opacity: 40%;
 }
 .alltime_50k {
-	color:lightblue;
-	opacity: 50%;
+    color: lightblue;
+    opacity: 50%;
 }
 .alltime_60k {
-	color:lightblue;
-	opacity: 60%;
+    color: lightblue;
+    opacity: 60%;
 }
 .alltime_70k {
-	color:lightblue;
-	opacity: 70%;
+    color: lightblue;
+    opacity: 70%;
 }
 .alltime_80k {
-	color:lightblue;
-	opacity: 80%;
+    color: lightblue;
+    opacity: 80%;
 }
 .alltime_90k {
-	color:lightblue;
-	opacity: 90%;
+    color: lightblue;
+    opacity: 90%;
 }
-
 .alltime_100k {
-	color:lightblue;
-	opacity: 100%;
+    color: lightblue;
+    opacity: 100%;
 }
-
-
 // gradient from highest to lowest
 .total_wins_00 {
-	background-color: #F8F8F8
+    background-color: #F8F8F8;
 }
-
-
 .total_wins_05 {
-background-color:#e6f2ff;
-color:black;
-
+    background-color: #e6f2ff;
+    color: black;
 }
 .total_wins_10 {
-	background-color: #cce6ff;
-	color:black;
-
+    background-color: #cce6ff;
+    color: black;
 }
 .total_wins_15 {
-	background-color: #b3d9ff;
-	color:black;
-
+    background-color: #b3d9ff;
+    color: black;
 }
 .total_wins_20 {
-	background-color:#99ccff;
-	color:black;
-
+    background-color: #99ccff;
+    color: black;
 }
 .total_wins_25 {
-	background-color:#80bfff;
-	color:black;
-
+    background-color: #80bfff;
+    color: black;
 }
 .total_wins_30 {
-	background-color:#66b3ff;
-	color:black;
-
+    background-color: #66b3ff;
+    color: black;
 }
 .total_wins_40 {
-	background-color:#4da6ff;
-	color:black;
-
+    background-color: #4da6ff;
+    color: black;
 }
 .total_wins_50 {
-	background-color:#3399ff;
-	color:black;
-
+    background-color: #3399ff;
+    color: black;
 }
 .total_wins_65 {
-	background-color:#1a8cff;
-	color:black;
-
+    background-color: #1a8cff;
+    color: black;
 }
-
 .total_wins_85 {
-	background-color:#0080ff;
-	color:black;
-
+    background-color: #0080ff;
+    color: black;
 }
-
 // gradient from highest to lowest
 .total_loss_00 {
-	background-color: #F8F8F8
+    background-color: #F8F8F8;
 }
-
-
 .total_loss_05 {
-background-color:#FFD7D7;
-color:black;
-
+    background-color: #FFD7D7;
+    color: black;
 }
 .total_loss_10 {
-	background-color: #FFB6B6;
-	color:black;
-
+    background-color: #FFB6B6;
+    color: black;
 }
 .total_loss_15 {
-	background-color:#FFA4A4;
-	color:black;
-
+    background-color: #FFA4A4;
+    color: black;
 }
 .total_loss_20 {
-	background-color:#FC8888;
-	color:black;
-
+    background-color: #FC8888;
+    color: black;
 }
 .total_loss_25 {
-	background-color:#FF6C6C;
-	color:black;
-
+    background-color: #FF6C6C;
+    color: black;
 }
 .total_loss_30 {
-	background-color:#FC5656;
-	color:black;
-
+    background-color: #FC5656;
+    color: black;
 }
 .total_loss_35 {
-	background-color:#FF3939;
-	color:black;
+    background-color: #FF3939;
+    color: black;
 }
 .total_loss_40 {
-	background-color:#FF1D1D;
-	color:black;
+    background-color: #FF1D1D;
+    color: black;
 }
 .total_loss_50 {
-	background-color:#FF001F;
-	color:black;
+    background-color: #FF001F;
+    color: black;
 }
 .first_box {
-	width:20px;
-	height: 20px;
+    width: 20px;
+    height: 20px;
 }
-
 .glyphicon-star {
-	color: black;
-	font-size: .8em;
+    color: black;
+    font-size: 0.8em;
 }
-
 .jersey {
-	height:1.5em;
-	width:1.5em;
+    height: 1.5em;
+    width: 1.5em;
 }
-
 .commish_icon {
-	height:1.4em;
-	width:1.4em;
+    height: 1.4em;
+    width: 1.4em;
 }
 .commish_icon_legend {
-	height:1.2em;
-	width:1.2em;
+    height: 1.2em;
+    width: 1.2em;
 }
 .medal_gold {
-	height:1.2em;
-	width:1.2em;
+    height: 1.2em;
+    width: 1.2em;
 }
 .medal_silver {
-	height:1.2em;
-	width:1.2em;
+    height: 1.2em;
+    width: 1.2em;
 }
 .medal_bronze {
-	height:1.2em;
-	width:1.2em;
+    height: 1.2em;
+    width: 1.2em;
 }
-
 .medal_gold_column {
-	height:1em;
-	width:1em;
+    height: 1em;
+    width: 1em;
 }
 .medal_silver_column {
-	height:1em;
-	width:1em;
+    height: 1em;
+    width: 1em;
 }
 .medal_bronze_column {
-	height:1em;
-	width:1em;
+    height: 1em;
+    width: 1em;
 }
-
 .icon_column_test {
-	height:.5em;
-	width:.5em;
+    height: 0.5em;
+    width: 0.5em;
 }
-
 .shorten {
-	font-size: 08px;
+    font-size: 8px;
 }
-
 .legend_column {
-	margin:15px;
+    margin: 15px;
 }
-
 .no_border {
-	   border-top: none !important;
+    border-top: none !important;
 }
-
 .inactive_grey {
-	color:grey;
+    color: grey;
 }
-
 .second_team_2008 {
-	background-color: rgb(211,211,211);
+    background-color: rgb(211,211,211);
 }
 .second_team_2009 {
-	background-color: rgb(192,192,192);
+    background-color: rgb(192,192,192);
 }
 .second_team_2010 {
-	background-color: rgb(169,169,169);
+    background-color: rgb(169,169,169);
 }
 .second_team_2011 {
-	background-color: rgb(211,211,211);
+    background-color: rgb(211,211,211);
 }
 .second_team_2012 {
-	background-color: rgb(192,192,192);
+    background-color: rgb(192,192,192);
 }
 .second_team_2013 {
-	background-color: rgb(169,169,169);
+    background-color: rgb(169,169,169);
 }
 .second_team_2014 {
-	background-color: rgb(211,211,211);
+    background-color: rgb(211,211,211);
 }
 .second_team_2015 {
-	background-color: rgb(192,192,192);
+    background-color: rgb(192,192,192);
 }
-
 .color_second_team {
-	background-color: rgba(39,170,255, 0.5);
+    background-color: rgba(39,170,255, 0.5);
 }
-
-.color_first_team{
-	background-color: rgba(43,182,115, 0.5);
+.color_first_team {
+    background-color: rgba(43,182,115, 0.5);
 }
-
 .first_team_icon {
-	height:4em;
-	width:4em;
+    height: 4em;
+    width: 4em;
 }
