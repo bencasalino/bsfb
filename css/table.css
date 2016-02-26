@@ -262,11 +262,11 @@ th {
 .second_team_2015 {
   background-color: silver; }
 
-.color_first_team {
-  background-color: rgba(255, 192, 129, 0.5); }
-
 .color_second_team {
-  background-color: rgba(255, 192, 129, 0.5); }
+  background-color: rgba(39, 170, 255, 0.5); }
+
+.color_first_team {
+  background-color: rgba(43, 182, 115, 0.5); }
 
 .first_team_icon {
   height: 4em;
