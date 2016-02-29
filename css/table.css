@@ -327,4 +327,10 @@ th {
   height: 2em;
   width: 2em; }
 
+.team_rank_style {
+  font-style: italic;
+  font-weight: bold;
+  color: #2B2B2B;
+  background-color: #F7F7F7; }
+
 /*# sourceMappingURL=table.css.map */
