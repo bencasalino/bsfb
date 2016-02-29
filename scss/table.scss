@@ -244,35 +244,90 @@ th {
 .inactive_grey {
     color: grey;
 }
+.first_team_2008 {
+    background-color: rgba(43,182,115,.2);
+}
+.first_team_2009 {
+    background-color: rgba(43,182,115,.4);
+}
+.first_team_2010 {
+    background-color: rgba(43,182,115,.6);
+}
+.first_team_2011 {
+    background-color: rgba(43,182,115,.8);
+}
+.first_team_2012 {
+    background-color: rgba(43,182,115,1);
+}
+.first_team_2013 {
+    background-color: rgba(43,182,115,.8);
+}
+.first_team_2014 {
+    background-color: rgba(43,182,115,.6);
+}
+.first_team_2015 {
+    background-color: rgba(43,182,115,.4);
+}
+
 .second_team_2008 {
-    background-color: rgb(211,211,211);
+    background-color: rgba(39,170,255,.5);
 }
 .second_team_2009 {
-    background-color: rgb(192,192,192);
+        background-color: rgba(39,170,255,.4);
 }
 .second_team_2010 {
-    background-color: rgb(169,169,169);
+        background-color: rgba(39,170,255,.6);
 }
 .second_team_2011 {
-    background-color: rgb(211,211,211);
+        background-color: rgba(39,170,255,.8);
 }
 .second_team_2012 {
-    background-color: rgb(192,192,192);
+        background-color: rgba(39,170,255,1);
 }
 .second_team_2013 {
-    background-color: rgb(169,169,169);
+        background-color: rgba(39,170,255,.8);
 }
 .second_team_2014 {
-    background-color: rgb(211,211,211);
+        background-color: rgba(39,170,255,.6);
 }
 .second_team_2015 {
-    background-color: rgb(192,192,192);
+        background-color: rgba(39,170,255,.4);
 }
+
+.third_team_2008 {
+    background-color: rgba(241,90,41,.2);
+}
+.third_team_2009 {
+        background-color: rgba(241,90,41,.4);
+}
+.third_team_2010 {
+        background-color: rgba(241,90,41,.6);
+}
+.third_team_2011 {
+        background-color: rgba(241,90,41,.8);
+}
+.third_team_2012 {
+        background-color: rgba(241,90,41,1);
+}
+.third_team_2013 {
+        background-color: rgba(241,90,41,.8);
+}
+.third_team_2014 {
+        background-color: rgba(241,90,41,.6);
+}
+.third_team_2015 {
+        background-color: rgba(241,90,41,.4);
+}
+
 .color_second_team {
     background-color: rgba(39,170,255, 0.5);
 }
 .color_first_team {
     background-color: rgba(43,182,115, 0.5);
+}
+
+.color_third_team {
+        background-color: rgba(241,90,41,.5);
 }
 .first_team_icon {
     height: 4em;
