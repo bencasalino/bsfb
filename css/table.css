@@ -96,87 +96,125 @@ th {
   color: lightblue;
   opacity: 100%; }
 
-.total_wins_00 {
-  background-color: #F8F8F8; }
-
 .total_wins_05 {
-  background-color: #e6f2ff;
-  color: black; }
+  background-color: #0D0080ff; }
 
 .total_wins_10 {
-  background-color: #cce6ff;
-  color: black; }
+  background-color: #1A0080ff; }
 
 .total_wins_15 {
-  background-color: #b3d9ff;
-  color: black; }
+  background-color: #260080ff; }
 
 .total_wins_20 {
-  background-color: #99ccff;
-  color: black; }
+  background-color: #330080ff; }
 
 .total_wins_25 {
-  background-color: #80bfff;
-  color: black; }
+  background-color: #400080ff; }
 
 .total_wins_30 {
-  background-color: #66b3ff;
-  color: black; }
+  background-color: #4D0080ff; }
+
+.total_wins_35 {
+  background-color: #590080ff; }
 
 .total_wins_40 {
-  background-color: #4da6ff;
-  color: black; }
+  background-color: #660080ff; }
+
+.total_wins_45 {
+  background-color: #730080ff; }
 
 .total_wins_50 {
-  background-color: #3399ff;
-  color: black; }
+  background-color: #800080ff; }
+
+.total_wins_55 {
+  background-color: #8C0080ff; }
+
+.total_wins_60 {
+  background-color: #990080ff; }
 
 .total_wins_65 {
-  background-color: #1a8cff;
-  color: black; }
+  background-color: #A60080ff; }
+
+.total_wins_70 {
+  background-color: #B30080ff; }
+
+.total_wins_75 {
+  background-color: #BF0080ff; }
+
+.total_wins_80 {
+  background-color: #CC0080ff; }
 
 .total_wins_85 {
-  background-color: #0080ff;
-  color: black; }
+  background-color: #D90080ff; }
 
-.total_loss_00 {
-  background-color: #F8F8F8; }
+.total_wins_90 {
+  background-color: #E60080ff; }
+
+.total_wins_95 {
+  background-color: #F20080ff; }
+
+.total_wins_100 {
+  background-color: #FF0080ff; }
 
 .total_loss_05 {
-  background-color: #FFD7D7;
-  color: black; }
+  background-color: #0DFF001F; }
 
 .total_loss_10 {
-  background-color: #FFB6B6;
-  color: black; }
+  background-color: #1AFF001F; }
 
 .total_loss_15 {
-  background-color: #FFA4A4;
-  color: black; }
+  background-color: #26FF001F; }
 
 .total_loss_20 {
-  background-color: #FC8888;
-  color: black; }
+  background-color: #33FF001F; }
 
 .total_loss_25 {
-  background-color: #FF6C6C;
-  color: black; }
+  background-color: #40FF001F; }
 
 .total_loss_30 {
-  background-color: #FC5656;
-  color: black; }
+  background-color: #4DFF001F; }
 
 .total_loss_35 {
-  background-color: #FF3939;
-  color: black; }
+  background-color: #59FF001F; }
 
 .total_loss_40 {
-  background-color: #FF1D1D;
-  color: black; }
+  background-color: #66FF001F; }
+
+.total_loss_45 {
+  background-color: #73FF001F; }
 
 .total_loss_50 {
-  background-color: #FF001F;
-  color: black; }
+  background-color: #80FF001F; }
+
+.total_loss_55 {
+  background-color: #8CFF001F; }
+
+.total_loss_60 {
+  background-color: #99FF001F; }
+
+.total_loss_65 {
+  background-color: #A6FF001F; }
+
+.total_loss_70 {
+  background-color: #B3FF001F; }
+
+.total_loss_75 {
+  background-color: #BFFF001F; }
+
+.total_loss_80 {
+  background-color: #CCFF001F; }
+
+.total_loss_85 {
+  background-color: #D9FF001F; }
+
+.total_loss_90 {
+  background-color: #E6FF001F; }
+
+.total_loss_95 {
+  background-color: #F2FF001F; }
+
+.total_loss_100 {
+  background-color: #FFFF001F; }
 
 .first_box {
   width: 20px;
@@ -239,76 +277,76 @@ th {
   color: grey; }
 
 .first_team_2008 {
-  background-color: rgba(43, 182, 115, 0.2); }
+  background-color: rgba(43, 182, 115, 0.1); }
 
 .first_team_2009 {
-  background-color: rgba(43, 182, 115, 0.4); }
+  background-color: rgba(43, 182, 115, 0.2); }
 
 .first_team_2010 {
-  background-color: rgba(43, 182, 115, 0.6); }
+  background-color: rgba(43, 182, 115, 0.3); }
 
 .first_team_2011 {
-  background-color: rgba(43, 182, 115, 0.8); }
-
-.first_team_2012 {
-  background-color: #2bb673; }
-
-.first_team_2013 {
-  background-color: rgba(43, 182, 115, 0.8); }
-
-.first_team_2014 {
-  background-color: rgba(43, 182, 115, 0.6); }
-
-.first_team_2015 {
   background-color: rgba(43, 182, 115, 0.4); }
 
+.first_team_2012 {
+  background-color: rgba(43, 182, 115, 0.5); }
+
+.first_team_2013 {
+  background-color: rgba(43, 182, 115, 0.6); }
+
+.first_team_2014 {
+  background-color: rgba(43, 182, 115, 0.7); }
+
+.first_team_2015 {
+  background-color: rgba(43, 182, 115, 0.8); }
+
 .second_team_2008 {
-  background-color: rgba(39, 170, 255, 0.5); }
+  background-color: rgba(39, 170, 255, 0.1); }
 
 .second_team_2009 {
-  background-color: rgba(39, 170, 255, 0.4); }
+  background-color: rgba(39, 170, 255, 0.2); }
 
 .second_team_2010 {
-  background-color: rgba(39, 170, 255, 0.6); }
+  background-color: rgba(39, 170, 255, 0.3); }
 
 .second_team_2011 {
-  background-color: rgba(39, 170, 255, 0.8); }
-
-.second_team_2012 {
-  background-color: #27aaff; }
-
-.second_team_2013 {
-  background-color: rgba(39, 170, 255, 0.8); }
-
-.second_team_2014 {
-  background-color: rgba(39, 170, 255, 0.6); }
-
-.second_team_2015 {
   background-color: rgba(39, 170, 255, 0.4); }
 
+.second_team_2012 {
+  background-color: rgba(39, 170, 255, 0.5); }
+
+.second_team_2013 {
+  background-color: rgba(39, 170, 255, 0.6); }
+
+.second_team_2014 {
+  background-color: rgba(39, 170, 255, 0.7); }
+
+.second_team_2015 {
+  background-color: rgba(39, 170, 255, 0.8); }
+
 .third_team_2008 {
-  background-color: rgba(241, 90, 41, 0.2); }
+  background-color: rgba(241, 90, 41, 0.1); }
 
 .third_team_2009 {
-  background-color: rgba(241, 90, 41, 0.4); }
+  background-color: rgba(241, 90, 41, 0.2); }
 
 .third_team_2010 {
-  background-color: rgba(241, 90, 41, 0.6); }
+  background-color: rgba(241, 90, 41, 0.3); }
 
 .third_team_2011 {
-  background-color: rgba(241, 90, 41, 0.8); }
+  background-color: rgba(241, 90, 41, 0.4); }
 
 .third_team_2012 {
-  background-color: #f15a29; }
+  background-color: rgba(241, 90, 41, 0.5); }
 
 .third_team_2013 {
-  background-color: rgba(241, 90, 41, 0.8); }
-
-.third_team_2014 {
   background-color: rgba(241, 90, 41, 0.6); }
 
+.third_team_2014 {
+  background-color: rgba(241, 90, 41, 0.7); }
+
 .third_team_2015 {
-  background-color: rgba(241, 90, 41, 0.4); }
+  background-color: rgba(241, 90, 41, 0.8); }
 
 .color_second_team {
   background-color: rgba(39, 170, 255, 0.5); }
