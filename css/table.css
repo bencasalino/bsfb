@@ -1,6 +1,17 @@
 .full_seasons {
   align-self: center; }
 
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+
+  .navbar .navbar-collapse {
+    text-align: center; } }
+body {
+  padding-top: 40px; }
+
 .roman {
   color: black;
   font-size: 9px;
@@ -95,126 +106,6 @@ th {
 .alltime_100k {
   color: lightblue;
   opacity: 100%; }
-
-.total_wins_05 {
-  background-color: #0D0080ff; }
-
-.total_wins_10 {
-  background-color: #1A0080ff; }
-
-.total_wins_15 {
-  background-color: #260080ff; }
-
-.total_wins_20 {
-  background-color: #330080ff; }
-
-.total_wins_25 {
-  background-color: #400080ff; }
-
-.total_wins_30 {
-  background-color: #4D0080ff; }
-
-.total_wins_35 {
-  background-color: #590080ff; }
-
-.total_wins_40 {
-  background-color: #660080ff; }
-
-.total_wins_45 {
-  background-color: #730080ff; }
-
-.total_wins_50 {
-  background-color: #800080ff; }
-
-.total_wins_55 {
-  background-color: #8C0080ff; }
-
-.total_wins_60 {
-  background-color: #990080ff; }
-
-.total_wins_65 {
-  background-color: #A60080ff; }
-
-.total_wins_70 {
-  background-color: #B30080ff; }
-
-.total_wins_75 {
-  background-color: #BF0080ff; }
-
-.total_wins_80 {
-  background-color: #CC0080ff; }
-
-.total_wins_85 {
-  background-color: #D90080ff; }
-
-.total_wins_90 {
-  background-color: #E60080ff; }
-
-.total_wins_95 {
-  background-color: #F20080ff; }
-
-.total_wins_100 {
-  background-color: #FF0080ff; }
-
-.total_loss_05 {
-  background-color: #0DFF001F; }
-
-.total_loss_10 {
-  background-color: #1AFF001F; }
-
-.total_loss_15 {
-  background-color: #26FF001F; }
-
-.total_loss_20 {
-  background-color: #33FF001F; }
-
-.total_loss_25 {
-  background-color: #40FF001F; }
-
-.total_loss_30 {
-  background-color: #4DFF001F; }
-
-.total_loss_35 {
-  background-color: #59FF001F; }
-
-.total_loss_40 {
-  background-color: #66FF001F; }
-
-.total_loss_45 {
-  background-color: #73FF001F; }
-
-.total_loss_50 {
-  background-color: #80FF001F; }
-
-.total_loss_55 {
-  background-color: #8CFF001F; }
-
-.total_loss_60 {
-  background-color: #99FF001F; }
-
-.total_loss_65 {
-  background-color: #A6FF001F; }
-
-.total_loss_70 {
-  background-color: #B3FF001F; }
-
-.total_loss_75 {
-  background-color: #BFFF001F; }
-
-.total_loss_80 {
-  background-color: #CCFF001F; }
-
-.total_loss_85 {
-  background-color: #D9FF001F; }
-
-.total_loss_90 {
-  background-color: #E6FF001F; }
-
-.total_loss_95 {
-  background-color: #F2FF001F; }
-
-.total_loss_100 {
-  background-color: #FFFF001F; }
 
 .first_box {
   width: 20px;
@@ -536,5 +427,167 @@ th {
   background-color: #80002B5C;
   background-color: #80C4CED4;
   background-color: #80E31837; }
+
+.total_wins_00 {
+  background-color: rgba(0, 128, 255, 0); }
+
+.total_wins_05 {
+  background-color: rgba(0, 128, 255, 0.05); }
+
+.total_wins_10 {
+  background-color: rgba(0, 128, 255, 0.1); }
+
+.total_wins_15 {
+  background-color: rgba(0, 128, 255, 0.15); }
+
+.total_wins_20 {
+  background-color: rgba(0, 128, 255, 0.2); }
+
+.total_wins_25 {
+  background-color: rgba(0, 128, 255, 0.25); }
+
+.total_wins_30 {
+  background-color: rgba(0, 128, 255, 0.3); }
+
+.total_wins_35 {
+  background-color: rgba(0, 128, 255, 0.35); }
+
+.total_wins_40 {
+  background-color: rgba(0, 128, 255, 0.4); }
+
+.total_wins_45 {
+  background-color: rgba(0, 128, 255, 0.45); }
+
+.total_wins_50 {
+  background-color: rgba(0, 128, 255, 0.5); }
+
+.total_wins_55 {
+  background-color: rgba(0, 128, 255, 0.55); }
+
+.total_wins_60 {
+  background-color: rgba(0, 128, 255, 0.6); }
+
+.total_wins_65 {
+  background-color: rgba(0, 128, 255, 0.65); }
+
+.total_wins_70 {
+  background-color: rgba(0, 128, 255, 0.7); }
+
+.total_wins_75 {
+  background-color: rgba(0, 128, 255, 0.75); }
+
+.total_wins_80 {
+  background-color: rgba(0, 128, 255, 0.8); }
+
+.total_wins_85 {
+  background-color: rgba(0, 128, 255, 0.85); }
+
+.total_wins_90 {
+  background-color: rgba(0, 128, 255, 0.9); }
+
+.total_wins_95 {
+  background-color: rgba(0, 128, 255, 0.95); }
+
+.total_wins_100 {
+  background-color: #0080ff; }
+
+.total_loss_00 {
+  background-color: rgba(255, 0, 31, 0); }
+
+.total_loss_05 {
+  background-color: rgba(255, 0, 31, 0.05); }
+
+.total_loss_10 {
+  background-color: rgba(255, 0, 31, 0.1); }
+
+.total_loss_15 {
+  background-color: rgba(255, 0, 31, 0.15); }
+
+.total_loss_20 {
+  background-color: rgba(255, 0, 31, 0.2); }
+
+.total_loss_25 {
+  background-color: rgba(255, 0, 31, 0.25); }
+
+.total_loss_30 {
+  background-color: rgba(255, 0, 31, 0.3); }
+
+.total_loss_35 {
+  background-color: rgba(255, 0, 31, 0.35); }
+
+.total_loss_40 {
+  background-color: rgba(255, 0, 31, 0.4); }
+
+.total_loss_45 {
+  background-color: rgba(255, 0, 31, 0.45); }
+
+.total_loss_50 {
+  background-color: rgba(255, 0, 31, 0.5); }
+
+.total_loss_55 {
+  background-color: rgba(255, 0, 31, 0.55); }
+
+.total_loss_60 {
+  background-color: rgba(255, 0, 31, 0.6); }
+
+.total_loss_65 {
+  background-color: rgba(255, 0, 31, 0.65); }
+
+.total_loss_70 {
+  background-color: rgba(255, 0, 31, 0.7); }
+
+.total_loss_75 {
+  background-color: rgba(255, 0, 31, 0.75); }
+
+.total_loss_80 {
+  background-color: rgba(255, 0, 31, 0.8); }
+
+.total_loss_85 {
+  background-color: rgba(255, 0, 31, 0.85); }
+
+.total_loss_90 {
+  background-color: rgba(255, 0, 31, 0.9); }
+
+.total_loss_95 {
+  background-color: rgba(255, 0, 31, 0.95); }
+
+.total_loss_100 {
+  background-color: #ff001f; }
+
+.win_percentage_000 {
+  background-color: rgba(0, 153, 153, 0.075); }
+
+.win_percentage_100 {
+  background-color: rgba(0, 153, 153, 0.15); }
+
+.win_percentage_200 {
+  background-color: rgba(0, 153, 153, 0.2); }
+
+.win_percentage_300 {
+  background-color: rgba(0, 153, 153, 0.3); }
+
+.win_percentage_400 {
+  background-color: rgba(0, 153, 153, 0.4); }
+
+.win_percentage_500 {
+  background-color: rgba(0, 153, 153, 0.5); }
+
+.win_percentage_600 {
+  background-color: rgba(0, 153, 153, 0.6); }
+
+.win_percentage_700 {
+  background-color: rgba(0, 153, 153, 0.7); }
+
+.win_percentage_800 {
+  background-color: rgba(0, 153, 153, 0.8); }
+
+.win_percentage_900 {
+  background-color: rgba(0, 153, 153, 0.9); }
+
+.win_percentage_1000 {
+  background-color: #009999; }
+
+li {
+  font-size: .8em; }
 
 /*# sourceMappingURL=table.css.map */
