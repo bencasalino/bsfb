@@ -1,5 +1,5 @@
 li {
-  font-size: .8em; }
+  font-size: 0.8em; }
 
 .blog_pod_icon {
   height: 75px;
@@ -9,7 +9,9 @@ li {
   height: 45px;
   width: 45px; }
 
-.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+.table-borderless tbody tr td,
+.table-borderless tbody tr th,
+.table-borderless thead tr th {
   border: none; }
 
 .blog_pod_header {
