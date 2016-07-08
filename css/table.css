@@ -1,17 +1,6 @@
 .full_seasons {
   align-self: center; }
 
-@media (min-width: 768px) {
-  .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top; }
-
-  .navbar .navbar-collapse {
-    text-align: center; } }
-body {
-  padding-top: 40px; }
-
 .roman {
   color: black;
   font-size: 9px;
@@ -65,7 +54,7 @@ th {
   background-color: #AAAAAA; }
 
 .third_place {
-  background-color: rgba(205, 127, 50, 0.75); }
+  background-color: #99773D; }
 
 .alltime_10k {
   color: lightblue;
@@ -107,13 +96,95 @@ th {
   color: lightblue;
   opacity: 100%; }
 
+.total_wins_00 {
+  background-color: #F8F8F8; }
+
+.total_wins_05 {
+  background-color: #e6f2ff;
+  color: black; }
+
+.total_wins_10 {
+  background-color: #cce6ff;
+  color: black; }
+
+.total_wins_15 {
+  background-color: #b3d9ff;
+  color: black; }
+
+.total_wins_20 {
+  background-color: #99ccff;
+  color: black; }
+
+.total_wins_25 {
+  background-color: #80bfff;
+  color: black; }
+
+.total_wins_30 {
+  background-color: #66b3ff;
+  color: black; }
+
+.total_wins_40 {
+  background-color: #4da6ff;
+  color: black; }
+
+.total_wins_50 {
+  background-color: #3399ff;
+  color: black; }
+
+.total_wins_65 {
+  background-color: #1a8cff;
+  color: black; }
+
+.total_wins_85 {
+  background-color: #0080ff;
+  color: black; }
+
+.total_loss_00 {
+  background-color: #F8F8F8; }
+
+.total_loss_05 {
+  background-color: #FFD7D7;
+  color: black; }
+
+.total_loss_10 {
+  background-color: #FFB6B6;
+  color: black; }
+
+.total_loss_15 {
+  background-color: #FFA4A4;
+  color: black; }
+
+.total_loss_20 {
+  background-color: #FC8888;
+  color: black; }
+
+.total_loss_25 {
+  background-color: #FF6C6C;
+  color: black; }
+
+.total_loss_30 {
+  background-color: #FC5656;
+  color: black; }
+
+.total_loss_35 {
+  background-color: #FF3939;
+  color: black; }
+
+.total_loss_40 {
+  background-color: #FF1D1D;
+  color: black; }
+
+.total_loss_50 {
+  background-color: #FF001F;
+  color: black; }
+
 .first_box {
   width: 20px;
   height: 20px; }
 
 .glyphicon-star {
   color: black;
-  font-size: 0.8em; }
+  font-size: .8em; }
 
 .jersey {
   height: 1.5em;
@@ -127,36 +198,24 @@ th {
   height: 1.2em;
   width: 1.2em; }
 
-.medal_gold {
-  height: 1.2em;
-  width: 1.2em; }
-
-.medal_silver {
-  height: 1.2em;
-  width: 1.2em; }
-
-.medal_bronze {
-  height: 1.2em;
-  width: 1.2em; }
-
 .medal_gold_column {
-  height: 1em;
-  width: 1em; }
+  height: 1.2em;
+  width: 1.2em; }
 
 .medal_silver_column {
-  height: 1em;
-  width: 1em; }
+  height: 1.2em;
+  width: 1.2em; }
 
 .medal_bronze_column {
-  height: 1em;
-  width: 1em; }
+  height: 1.2em;
+  width: 1.2em; }
 
 .icon_column_test {
-  height: 0.5em;
-  width: 0.5em; }
+  height: .5em;
+  width: .5em; }
 
 .shorten {
-  font-size: 8px; }
+  font-size: 08px; }
 
 .legend_column {
   margin: 15px; }
@@ -167,435 +226,7 @@ th {
 .inactive_grey {
   color: grey; }
 
-.first_team_2008 {
-  background-color: rgba(43, 182, 115, 0.1); }
-
-.first_team_2009 {
-  background-color: rgba(43, 182, 115, 0.2); }
-
-.first_team_2010 {
-  background-color: rgba(43, 182, 115, 0.3); }
-
-.first_team_2011 {
-  background-color: rgba(43, 182, 115, 0.4); }
-
-.first_team_2012 {
-  background-color: rgba(43, 182, 115, 0.5); }
-
-.first_team_2013 {
-  background-color: rgba(43, 182, 115, 0.6); }
-
-.first_team_2014 {
-  background-color: rgba(43, 182, 115, 0.7); }
-
-.first_team_2015 {
-  background-color: rgba(43, 182, 115, 0.8); }
-
-.second_team_2008 {
-  background-color: rgba(39, 170, 255, 0.1); }
-
-.second_team_2009 {
-  background-color: rgba(39, 170, 255, 0.2); }
-
-.second_team_2010 {
-  background-color: rgba(39, 170, 255, 0.3); }
-
-.second_team_2011 {
-  background-color: rgba(39, 170, 255, 0.4); }
-
-.second_team_2012 {
-  background-color: rgba(39, 170, 255, 0.5); }
-
-.second_team_2013 {
-  background-color: rgba(39, 170, 255, 0.6); }
-
-.second_team_2014 {
-  background-color: rgba(39, 170, 255, 0.7); }
-
-.second_team_2015 {
-  background-color: rgba(39, 170, 255, 0.8); }
-
-.third_team_2008 {
-  background-color: rgba(241, 90, 41, 0.1); }
-
-.third_team_2009 {
-  background-color: rgba(241, 90, 41, 0.2); }
-
-.third_team_2010 {
-  background-color: rgba(241, 90, 41, 0.3); }
-
-.third_team_2011 {
-  background-color: rgba(241, 90, 41, 0.4); }
-
-.third_team_2012 {
-  background-color: rgba(241, 90, 41, 0.5); }
-
-.third_team_2013 {
-  background-color: rgba(241, 90, 41, 0.6); }
-
-.third_team_2014 {
-  background-color: rgba(241, 90, 41, 0.7); }
-
-.third_team_2015 {
-  background-color: rgba(241, 90, 41, 0.8); }
-
-.color_second_team {
-  background-color: rgba(39, 170, 255, 0.5); }
-
-.color_first_team {
-  background-color: rgba(43, 182, 115, 0.5); }
-
-.color_third_team {
-  background-color: rgba(241, 90, 41, 0.5); }
-
-.first_team_icon {
-  height: 4em;
-  width: 4em; }
-
-.top_season_avg {
-  height: 2em;
-  width: 2em; }
-
-.team_rank_style {
-  font-style: italic;
-  font-weight: bold;
-  color: #2B2B2B;
-  background-color: #F7F7F7; }
-
-.team_atl {
-  background-color: #80E13A3E;
-  background-color: #80061922;
-  background-color: #80C4D600; }
-
-.team_bos {
-  background-color: #80BB9753;
-  background-color: #80A73832;
-  background-color: #80FAB383;
-  background-color: #80061922;
-  background-color: #80008348; }
-
-.team_bkn {
-  background-color: #80061922; }
-
-.team_cha {
-  background-color: #801D1160;
-  background-color: #80A1A1A4;
-  background-color: #80008CA8; }
-
-.team_chi {
-  background-color: #80061922;
-  background-color: #80CE1141; }
-
-.team_cle {
-  background-color: #80FDBB30;
-  background-color: #80002D62;
-  background-color: #80860038; }
-
-.team_dal {
-  background-color: #80C4CED3;
-  background-color: #80061922;
-  background-color: #8020385B;
-  background-color: #80007DC5; }
-
-.team_den {
-  background-color: #80FDB927;
-  background-color: #800F586C;
-  background-color: #804D90CD; }
-
-.team_det {
-  background-color: #80ED174C;
-  background-color: #800F586C;
-  background-color: #80006BB6; }
-
-.team_gsw {
-  background-color: #8026282A;
-  background-color: #80FDB927;
-  background-color: #80006BB6; }
-
-.team_hou {
-  background-color: #80C4CED3;
-  background-color: #80061922;
-  background-color: #80FDB927;
-  background-color: #80CE1141; }
-
-.team_ind {
-  background-color: #8000275D;
-  background-color: #80BEC0C2;
-  background-color: #80FFC633; }
-
-.team_lac {
-  background-color: #80006BB6;
-  background-color: #80061922;
-  background-color: #80BEC0C2;
-  background-color: #80ED174C; }
-
-.team_lal {
-  background-color: #80FDB927;
-  background-color: #80061922;
-  background-color: #808177B7;
-  background-color: #80552582; }
-
-.team_mep {
-  background-color: #800F586C;
-  background-color: #807399C6;
-  background-color: #80FDB927;
-  background-color: #80BED4E9; }
-
-.team_mia {
-  background-color: #8098002E;
-  background-color: #80061922;
-  background-color: #80BCBEC0;
-  background-color: #80F9A01B; }
-
-.team_mil {
-  background-color: #8000471B;
-  background-color: #80061922;
-  background-color: #80007DC5;
-  background-color: #80F0EBD2; }
-
-.team_min {
-  background-color: #80005083;
-  background-color: #80C4CED3;
-  background-color: #80FFE600;
-  background-color: #80E03A3F;
-  background-color: #80061922;
-  background-color: #8000A94F; }
-
-.team_nop {
-  background-color: #80002B5C;
-  background-color: #80E31837;
-  background-color: #80B4975A; }
-
-.team_nyk {
-  background-color: #80F58426;
-  background-color: #80BEC0C2;
-  background-color: #80231F20;
-  background-color: #80006BB6; }
-
-.team_okc {
-  background-color: #80F05133;
-  background-color: #80FDBB30;
-  background-color: #80002D62;
-  background-color: #80007DC3; }
-
-.team_orl {
-  background-color: #80C4CED3;
-  background-color: #80061922;
-  background-color: #80007DC5; }
-
-.team_phi {
-  background-color: #80002B5C;
-  background-color: #80C4CED3;
-  background-color: #80006BB6; }
-
-.team_phx {
-  background-color: #801D1160;
-  background-color: #8063717A;
-  background-color: #80F9A01B;
-  background-color: #80B95915;
-  background-color: #80BEC0C2;
-  background-color: #80061922;
-  background-color: #80E56020; }
-
-.team_por {
-  background-color: #80BAC3C9;
-  background-color: #80061922;
-  background-color: #80E03A3E; }
-
-.team_sac {
-  background-color: #808E9090;
-  background-color: #80061922;
-  background-color: #80724C9F; }
-
-.team_sas {
-  background-color: #80061922;
-  background-color: #80BAC3C9; }
-
-.team_tor {
-  background-color: #80061922;
-  background-color: #80A1A1A4;
-  background-color: #80B4975A;
-  background-color: #80CE1141; }
-
-.team_uta {
-  background-color: #80002B5C;
-  background-color: #80F9A01B;
-  background-color: #80BEC0C2;
-  background-color: #8000471B; }
-
-.team_was {
-  background-color: #80002B5C;
-  background-color: #80C4CED4;
-  background-color: #80E31837; }
-
-.total_wins_00 {
-  background-color: rgba(0, 128, 255, 0); }
-
-.total_wins_05 {
-  background-color: rgba(0, 128, 255, 0.05); }
-
-.total_wins_10 {
-  background-color: rgba(0, 128, 255, 0.1); }
-
-.total_wins_15 {
-  background-color: rgba(0, 128, 255, 0.15); }
-
-.total_wins_20 {
-  background-color: rgba(0, 128, 255, 0.2); }
-
-.total_wins_25 {
-  background-color: rgba(0, 128, 255, 0.25); }
-
-.total_wins_30 {
-  background-color: rgba(0, 128, 255, 0.3); }
-
-.total_wins_35 {
-  background-color: rgba(0, 128, 255, 0.35); }
-
-.total_wins_40 {
-  background-color: rgba(0, 128, 255, 0.4); }
-
-.total_wins_45 {
-  background-color: rgba(0, 128, 255, 0.45); }
-
-.total_wins_50 {
-  background-color: rgba(0, 128, 255, 0.5); }
-
-.total_wins_55 {
-  background-color: rgba(0, 128, 255, 0.55); }
-
-.total_wins_60 {
-  background-color: rgba(0, 128, 255, 0.6); }
-
-.total_wins_65 {
-  background-color: rgba(0, 128, 255, 0.65); }
-
-.total_wins_70 {
-  background-color: rgba(0, 128, 255, 0.7); }
-
-.total_wins_75 {
-  background-color: rgba(0, 128, 255, 0.75); }
-
-.total_wins_80 {
-  background-color: rgba(0, 128, 255, 0.8); }
-
-.total_wins_85 {
-  background-color: rgba(0, 128, 255, 0.85); }
-
-.total_wins_90 {
-  background-color: rgba(0, 128, 255, 0.9); }
-
-.total_wins_95 {
-  background-color: rgba(0, 128, 255, 0.95); }
-
-.total_wins_100 {
-  background-color: #0080ff; }
-
-.total_loss_00 {
-  background-color: rgba(255, 0, 31, 0); }
-
-.total_loss_05 {
-  background-color: rgba(255, 0, 31, 0.05); }
-
-.total_loss_10 {
-  background-color: rgba(255, 0, 31, 0.1); }
-
-.total_loss_15 {
-  background-color: rgba(255, 0, 31, 0.15); }
-
-.total_loss_20 {
-  background-color: rgba(255, 0, 31, 0.2); }
-
-.total_loss_25 {
-  background-color: rgba(255, 0, 31, 0.25); }
-
-.total_loss_30 {
-  background-color: rgba(255, 0, 31, 0.3); }
-
-.total_loss_35 {
-  background-color: rgba(255, 0, 31, 0.35); }
-
-.total_loss_40 {
-  background-color: rgba(255, 0, 31, 0.4); }
-
-.total_loss_45 {
-  background-color: rgba(255, 0, 31, 0.45); }
-
-.total_loss_50 {
-  background-color: rgba(255, 0, 31, 0.5); }
-
-.total_loss_55 {
-  background-color: rgba(255, 0, 31, 0.55); }
-
-.total_loss_60 {
-  background-color: rgba(255, 0, 31, 0.6); }
-
-.total_loss_65 {
-  background-color: rgba(255, 0, 31, 0.65); }
-
-.total_loss_70 {
-  background-color: rgba(255, 0, 31, 0.7); }
-
-.total_loss_75 {
-  background-color: rgba(255, 0, 31, 0.75); }
-
-.total_loss_80 {
-  background-color: rgba(255, 0, 31, 0.8); }
-
-.total_loss_85 {
-  background-color: rgba(255, 0, 31, 0.85); }
-
-.total_loss_90 {
-  background-color: rgba(255, 0, 31, 0.9); }
-
-.total_loss_95 {
-  background-color: rgba(255, 0, 31, 0.95); }
-
-.total_loss_100 {
-  background-color: #ff001f; }
-
-.win_percentage_000 {
-  background-color: rgba(0, 153, 153, 0.075); }
-
-.win_percentage_100 {
-  background-color: rgba(0, 153, 153, 0.15); }
-
-.win_percentage_200 {
-  background-color: rgba(0, 153, 153, 0.2); }
-
-.win_percentage_300 {
-  background-color: rgba(0, 153, 153, 0.3); }
-
-.win_percentage_400 {
-  background-color: rgba(0, 153, 153, 0.4); }
-
-.win_percentage_500 {
-  background-color: rgba(0, 153, 153, 0.5); }
-
-.win_percentage_600 {
-  background-color: rgba(0, 153, 153, 0.6); }
-
-.win_percentage_700 {
-  background-color: rgba(0, 153, 153, 0.7); }
-
-.win_percentage_800 {
-  background-color: rgba(0, 153, 153, 0.8); }
-
-.win_percentage_900 {
-  background-color: rgba(0, 153, 153, 0.9); }
-
-.win_percentage_1000 {
-  background-color: #009999; }
-
-li {
-  font-size: .8em; }
-
-.blog_pod_icon {
-  height: 75px;
-  width: 75px; }
-
-.blog_pod_table {
-  height: 25px;
-  width: 25px; }
+.testtest {
+  color: red; }
 
 /*# sourceMappingURL=table.css.map */

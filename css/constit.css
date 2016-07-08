@@ -1,0 +1,42 @@
+body {
+  background-color: #d9e1e8;
+  margin-left: 9%;
+  margin-right: 9%;
+ }
+
+
+
+td {
+    font-size: 10px;
+}
+
+
+.outline {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 60%;
+}
+
+
+
+table {
+    width: 80%;
+}
+
+
+
+.upper-right {
+    width: 50%;
+    padding-right: 15%;
+        /*margin-right: 25%;*/
+}
+
+
+
+.blog_pod_table {
+    width:30px;
+    height:30px;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="bsfb.ico">
+    <!-- title -->
+    <title> BSFB 2016</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Animate CSS Link  -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <!-- table -->
+    <!-- <script type="text/javascript" src="tablesorter-master/jquery-latest.js"></script>
+    <script type="text/javascript" src="tablesorter-master/jquery.tablesorter.js"></script> -->
+    <script type="text/javascript" src="chart.js/Chart.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+</head>
+   <body>
+     <canvas id="skills" width="300" height="300"></canvas>
+     <script>
+
+     var context = document.getElementById('skills').getContext('2d');
+     var pieData = [
+        {
+           value: 25,
+           label: 'Java',
+           color: '#811BD6'
+        },
+        {
+           value: 10,
+           label: 'Scala',
+           color: '#9CBABA'
+        },
+        {
+           value: 30,
+           label: 'PHP',
+           color: '#D18177'
+        },
+        {
+           value : 35,
+           label: 'HTML',
+           color: '#6AE128'
+        }
+     ];
+      var skillsChart = new Chart(context).Pie(pieData);
+
+    //  var skillsChart = new Chart(context).Pie(pieData);
+     </script>
+   </body>
+
+
+</html>

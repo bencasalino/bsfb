@@ -1,35 +1,128 @@
-// @media (min-width: 768px) {
-//     .navbar .navbar-nav {
-//         display: inline-block;
-//         float: none;
-//         vertical-align: top;
-//     }
-//
-//     .navbar .navbar-collapse {
-//         text-align: center;
-//     }
-// }
-
-
-
-
-h1, h2, h3, h4, h5, h6 {
-    color:#f4f5f9;
-}
-
-
-
-#row_one {
-    align-items: center;
-}
-
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-    background-color:#2b90d9 ;
+    // background-color: #2b90d9;
+    background-color: #d9e1e8;
+    // font-family: 'Passion One';
+    // font-size: 18px;
 }
 
 
-.logo {
-    height:100px;
-    width: 100px;
+h1, h3 hr {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #414042;
+}
+
+h2, h4, h5 {
+    font-family: 'Roboto';
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #414042;
+}
+
+.hof_header {
+	    color: #2b90d9;
+}
+
+.hof_data {
+    color: #414042;
+}
+
+
+.inactive {
+    color:#414042;
+font-style: italic;
+}
+
+
+
+.calender_left_col {
+    padding-left: 22%;
+
+}
+
+.calender_right_col {
+
+    padding-right: 20%;
+}
+
+
+
+.new_mana {
+        padding-right: 25%;
+        padding-left: 25%;
+        margin-left: 25%;
+
+        font-size: 12px;
+
+}
+
+.returning_mana{
+        padding-left: 15%;
+        font-size: 12px;
+}
+
+
+
+
+.new_m {
+    // padding-left: 25%;
+    padding-right: 25%;
+}
+
+.new_r {
+padding-left: 25%;
+}
+
+
+.simmons {
+    background-color: #f0f5f9;
+    // border-bottom: 10px;
+    // border-width: medium;
+    // border-color: red;
+}
+
+
+.main {
+    // background-color: gray;
+}
+
+
+strong {
+    font-size: 14px;
+}
+
+
+
+.will {
+    color:#c72e45;
+}
+
+.test {
+color:    #2b90d9;
+}
+
+
+
+td, th {
+    font-size: 11px;
+}
+
+
+
+
+
+.paid_no {
+    color:#c72e45;
+}
+
+
+.paid_yes {
+    color:green;
+}
+
+
+.mana_names {
+font-weight: bold;
 }

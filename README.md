@@ -1,11 +1,5 @@
+###### BSFB SEASON VIII (transition to SEASON IX/summer and offseason updates)
 
-
-
-
-
-
-
-###### BSFB SEASON VIII
 
 ###### Links
 * _Leauge Home_
@@ -15,7 +9,7 @@
 * _ESPN League Home_
 * _http://games.espn.go.com/fba/leagueoffice?leagueId=57357_
 
-##### _BSFB Fantasy Basketball Season VIII, Version 4, 11/21/16_
+##### _BSFB Fantasy Basketball Season VIII, Version 5, 02/01/16_
 
 #### By _**Benjamin M. Casalino**_
 
