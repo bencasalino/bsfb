@@ -1,15 +1,15 @@
-###### BSFB SEASON VIII (transition to SEASON IX/summer and offseason updates)
+###### BSFB SEASON IX [2016 OCTOBER - 2017 JUNE]
 
 
 ###### Links
-* _Leauge Home_
+* _League Home_
 * _https://www.bsfbbasketball.com/_
 * _Facebook Group Page_
 * _https://www.facebook.com/groups/123422284409807/_
 * _ESPN League Home_
 * _http://games.espn.go.com/fba/leagueoffice?leagueId=57357_
 
-##### _BSFB Fantasy Basketball Season VIII, Version 5, 02/01/16_
+##### _BSFB Fantasy Basketball Season IX, 07/01/16_
 
 #### By _**Benjamin M. Casalino**_
 
