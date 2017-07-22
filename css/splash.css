@@ -1,24 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:700);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-  background-color: #d9e1e8; }
+  background-color: #414042;; }
 
 h1, h3 hr {
   font-family: 'Roboto';
   font-weight: bold;
-  color: #414042; }
+  color: #ffffff; }
 
 h2, h4, h5 {
   font-family: 'Roboto';
   font-weight: normal;
   letter-spacing: 2px;
-  color: #414042; }
+  color: #ffffff; }
 
 .hof_header {
-  color: #2b90d9; }
+  color: #c72e45; }
 
 .hof_data {
-  color: #414042; }
+  color: #ffffff; }
 
 .inactive {
   color: #414042;
@@ -56,13 +56,15 @@ strong {
   color: #c72e45; }
 
 .test {
-  color: #2b90d9; }
+  color: #c72e45; }
 
 td, th {
   font-size: 11px; }
 
 .paid_no {
   color: #c72e45; }
+
+
 
 .paid_yes {
   color: green; }
@@ -72,5 +74,22 @@ td, th {
 
 .mana_names {
   font-weight: bold; }
+
+.bleh {
+    color: #ffffff;
+}
+
+.white {
+    color:#ffffff;
+}
+.red {
+   color: #c72e45; }
+
+.white:hover{
+       color:#ffffff;
+   }
+.red:hover {
+      color: #c72e45; }
+
 
 /*# sourceMappingURL=splash.css.map */

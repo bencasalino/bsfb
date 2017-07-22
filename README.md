@@ -1,4 +1,4 @@
-###### BSFB SEASON IX [2016 OCTOBER - 2017 JUNE]
+###### BSFB SEASON 10 [2017 OCTOBER - 2018 JUNE]
 
 
 ###### Links
@@ -9,7 +9,7 @@
 * _ESPN League Home_
 * _http://games.espn.go.com/fba/leagueoffice?leagueId=57357_
 
-##### _BSFB Fantasy Basketball Season IX, 07/01/16_
+##### _BSFB Fantasy Basketball Season 10,_
 
 #### By _**Benjamin M. Casalino**_
 
@@ -27,16 +27,16 @@ In a web browser navigate to _https://www.bsfbbasketball.com/_ to view.
 * HTML5
 * CSS3
 * SASS
-* BOOTSTRAP 3
+* BOOTSTRAP
 * JAVASCRIPT
 * WOW JS
 * ANIMATE JS
-* JQUERY
+
 
 
 ### Legal
 
-Copyright (c) 2016 **_Benjamin M. Casalino_**
+Copyright (c) 2017 **_Benjamin M. Casalino_**
 
 This software is licensed under the MIT license.
 
